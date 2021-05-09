@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <!--specifications for pr_flow tool-->
+  <spec name = "Xilinx_dir"         value = "~/Xilinx/SDx/2018.2/settings64.sh" />
+  <spec name = "board" value = "zcu102" />
+  <!--spec name = "board"              value = "u96" -->
+  <spec name = "part" value = "xczu9eg-ffvb1156-2-e" />
+  <!--spec name = "part"               value = "xczu3eg-sbva484-1-e" -->
+  <spec name = "device" value = "xczu9_0" />  
+  <!--spec name = "device"             value = "xczu3_0" -->
+  <spec name = "p"                  value = "0.5" />
+  <spec name = "pks"                value = "49" />
+  <spec name = "nl"                 value = "32" />
+  <!-- spec name = "qsub_Xilinx_dir" value = "/scratch/safe/SDSoC/SDx/2018.3/settings64.sh" -->
+  <spec name = "qsub_Xilinx_dir"    value = "/scratch/safe/SDSoC/SDx/2018.2/settings64.sh" />
+  <spec name = "email"              value = "youemail@qsub.edu" />
+  <spec name = "bft_regen"          value = "1" />
+  <spec name = "static_regen"       value = "1" />
+  <spec name = "hls_regen"          value = "0" />
+  <spec name = "leaf_syn_regen"     value = "0" />
+  <spec name = "leaf_impl_regen"    value = "0" />
+  <spec name = "bit_gen_regen"      value = "1" />
+  <spec name = "platform_regen"     value = "0" />
+  <spec name = "mono_bft_regen"     value = "1" />
+  <spec name = "mono_regen"         value = "0" />
+  <spec name = "config_regen"       value = "0" />
+  <spec name = "qsub_grid"          value = "70s" />
+  <spec name = "maxThreads"         value = "8" />
+  <spec name = "qsub_Nodes"         value = "4" />
+  <spec name = "MEM"                value = "2G" />
+  <spec name = "PR_mode"            value = "noquick" />
+  <spec name = "packet_bits"        value = "49" />
+  <spec name = "addr_bits"          value = "5" />
+  <spec name = "port_bits"          value = "4" />
+  <spec name = "bram_addr_bits"     value = "7" />
+  <spec name = "payload_bits"       value = "32" />
+  <spec name = "bram_addr"          value = "0" />
+  <spec name = "freespace"          value = "" />
+  <spec name = "input_port_offset"  value = "2" />
+  <spec name = "output_port_offset" value = "9" />
+  <spec name = "min_net"            value = "1" />
+  <spec name = "pp_0"               value = "1" />
+  <spec name = "pp_1"               value = "1" />
+
+
+
+
+  <clock name = 'clk_bft' period = "3.3" />
+  <clock name = 'clk_user' period = "4" />
+
+
+  <spec name = "mono_function"      value = "rendering_mono" />
+  <!--functions to be synthesized-->
+  <function name = "rendering_psuedo"  inputs = "1" outputs = "1" page = "X0Y3"  ramtype = "block"/>
+
+
+  <!--functions connections-->
+  <link source = "DMA.0-X1Y3-rendering_psuedo.0"                       width = "128"/>
+  <link source = "rendering_psuedo.0-X0Y4-X1Y4-X1Y3-DMA.0"             width = "128"/>
+
+  <!--network datawidth-->
+  <network port = "net0_net1" datawidth = "64" num= "3"/>
+  <network port = "net0_net2" datawidth = "32" num= "8"/>
+  <network port = "net0_net3" datawidth = "45" num= "8"/>
+  <network port = "net0_net4" datawidth = "40" num= "8"/>
+  <network port = "net0_net5" datawidth = "32" num= "10"/>
+  <network port = "page0_net"  datawidth = "32" num= "1"/>
+  <network port = "page1_net"  datawidth = "128" num= "1"/>
+  <network port = "page2_net"  datawidth = "64" num= "2"/>
+  <network port = "page3_net"  datawidth = "64" num= "2"/>
+  <network port = "page4_net"  datawidth = "43" num= "3"/>
+  <network port = "page5_net"  datawidth = "43" num= "3"/>
+  <network port = "page6_net"  datawidth = "41" num= "4"/>
+  <network port = "page7_net"  datawidth = "32" num= "2"/>
+  <network port = "page8_net"  datawidth = "41" num= "4"/>
+  <network port = "page9_net"  datawidth = "32" num= "4"/>
+  <network port = "page10_net"  datawidth = "32" num= "5"/>
+  <network port = "page11_net"  datawidth = "32" num= "6"/>
+  <network port = "page12_net"  datawidth = "32" num= "4"/>
+  <network port = "page13_net"  datawidth = "80" num= "2"/>
+  <network port = "page14_net"  datawidth = "54" num= "3"/>
+  <network port = "page15_net"  datawidth = "54" num= "3"/>
+  <network port = "page16_net"  datawidth = "54" num= "3"/>
+  <network port = "page17_net"  datawidth = "32" num= "4"/>
+  <network port = "page18_net"  datawidth = "160" num= "2"/>
+  <network port = "page19_net"  datawidth = "160" num= "2"/>
+  <network port = "page20_net"  datawidth = "64" num= "5"/>
+  <network port = "page21_net"  datawidth = "80" num= "4"/>
+  <network port = "page22_net"  datawidth = "32" num= "2"/>
+  <network port = "page23_net"  datawidth = "32" num= "2"/>
+  <network port = "page24_net"  datawidth = "32" num= "2"/>
+  <network port = "page25_net"  datawidth = "32" num= "3"/>
+  <network port = "page26_net"  datawidth = "32" num= "4"/>
+  <network port = "page27_net"  datawidth = "32" num= "2"/>
+  <network port = "page28_net"  datawidth = "32" num= "1"/>
+  <network port = "page29_net"  datawidth = "64" num= "2"/>
+  <network port = "page30_net"  datawidth = "32" num= "2"/>
+  <network port = "page31_net"  datawidth = "32" num= "4"/>
+
+  <place_holder pe = 'X0Y3' type = 'pe_empty0101' />
+  <place_holder pe = 'X0Y4' type = 'pe_empty0111' />
+  <place_holder pe = 'X0Y5' type = 'pe_empty0111' />
+  <place_holder pe = 'X0Y6' type = 'pe_empty0011' />
+  <place_holder pe = 'X1Y3' type = 'pe_empty1121' />
+  <place_holder pe = 'X1Y4' type = 'pe_empty1111' />
+  <place_holder pe = 'X1Y5' type = 'pe_empty1111' />
+  <place_holder pe = 'X1Y6' type = 'pe_empty1011' />
+  <place_holder pe = 'X2Y0' type = 'pe_empty0101' />
+  <place_holder pe = 'X2Y1' type = 'pe_empty0111' />
+  <place_holder pe = 'X2Y2' type = 'pe_empty0111' />
+  <place_holder pe = 'X2Y3' type = 'pe_empty1111' />
+  <place_holder pe = 'X2Y4' type = 'pe_empty1111' />
+  <place_holder pe = 'X2Y5' type = 'pe_empty1111' />
+  <place_holder pe = 'X2Y6' type = 'pe_empty1011' />
+  <place_holder pe = 'X3Y0' type = 'pe_empty1100' />
+  <place_holder pe = 'X3Y1' type = 'pe_empty1110' />
+  <place_holder pe = 'X3Y2' type = 'pe_empty1110' />
+  <place_holder pe = 'X3Y3' type = 'pe_empty1110' />
+  <place_holder pe = 'X3Y4' type = 'pe_empty1110' />
+  <place_holder pe = 'X3Y5' type = 'pe_empty1110' />
+  <place_holder pe = 'X3Y6' type = 'pe_empty1010' />
+
+
+
+
+</configuration>

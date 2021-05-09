@@ -1,0 +1,10 @@
+module    user_kernel user_kernel_inst(
+        .clk(clk_user),
+        .rst(reset),
+        .data_in(dout_leaf_interface2user),
+        .vld_data_in(vld_interface2user),
+        .ack_data_in(ack_user2interface),
+        .data_out(din_leaf_user2interface),
+        .vld_data_out(vld_user2interface),
+        .ack_data_out(ack_interface2user)
+        );    

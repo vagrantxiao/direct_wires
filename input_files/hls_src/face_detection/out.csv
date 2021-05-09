@@ -1,0 +1,139 @@
+g++ -I /scratch/safe/SDSoC/Vivado/2018.2/include -o Test_host  ./host/*.cpp ./sdsoc/*.cpp  -O3
+./Test_host
+Face Detection Application
+imageScaler_top_in_1,4800
+imageScaler_top_out_1,124094
+imageScaler_bot_in_1,124094
+imageScaler_bot_out_1,170894
+imageScaler_bot_out_2,170894
+sfilter0_in_1,170894
+sfilter0_out_1,2718002
+sfilter0_out_2,341788
+sfilter1_in_1,170894
+sfilter1_in_2,341788
+sfilter1_out_1,2481654
+sfilter1_out_2,170894
+sfilter1_out_3,341788
+sfilter2_in_1,170894
+sfilter2_in_2,341788
+sfilter2_out_1,2481654
+sfilter2_out_2,170894
+sfilter2_out_3,341788
+sfilter3_in_1,170894
+sfilter3_in_2,341788
+sfilter3_out_1,2481654
+sfilter3_out_2,170894
+sfilter3_out_3,341788
+sfilter4_in_1,170894
+sfilter4_in_2,341788
+sfilter4_out_1,2718002
+sfilter4_out_2,170894
+wfilter0_in_1,170894
+wfilter0_in_2,1617182
+wfilter0_out_1,1968261
+wfilter0_out_2,341788
+wfilter1_in_1,170894
+wfilter1_in_2,341788
+wfilter1_in_3,1617182
+wfilter1_out_1,1965735
+wfilter1_out_2,170894
+wfilter1_out_3,341788
+wfilter2_in_1,170894
+wfilter2_in_2,341788
+wfilter2_in_3,1617182
+wfilter2_out_1,1965735
+wfilter2_out_2,170894
+wfilter2_out_3,341788
+wfilter3_in_1,170894
+wfilter3_in_2,341788
+wfilter3_in_3,1617182
+wfilter3_out_1,1965735
+wfilter3_out_2,170894
+wfilter3_out_3,341788
+wfilter4_in_1,170894
+wfilter4_in_2,341788
+wfilter4_in_3,1617182
+wfilter4_out_1,1968261
+wfilter4_out_2,170894
+wfilter0_process_in_1,1968261
+wfilter0_process_out_1,364098
+wfilter1_process_in_1,1965735
+wfilter1_process_out_1,361572
+wfilter2_process_in_1,1965735
+wfilter2_process_out_1,361572
+wfilter3_process_in_1,1965735
+wfilter3_process_out_1,361572
+wfilter4_process_in_1,1968261
+wfilter4_process_out_1,364098
+weak_data_req_simple_in_1,175670
+weak_data_req_simple_out_1,1617182
+weak_data_req_simple_out_2,1617182
+weak_data_req_simple_out_3,1617182
+weak_data_req_simple_out_4,1617182
+weak_data_req_simple_out_5,1617182
+strong_classifier_in_1,2718002
+strong_classifier_in_2,2481654
+strong_classifier_in_3,2481654
+strong_classifier_in_4,2481654
+strong_classifier_in_5,2718002
+strong_classifier_out_1,118174
+weak_process_new_in_1,118174
+weak_process_new_in_2,362835
+weak_process_new_in_3,361572
+weak_process_new_in_4,361572
+weak_process_new_in_5,361572
+weak_process_new_in_6,362835
+weak_process_new_out_1,102
+weak_process_new_out_2,175670
+we should receive 102 values
+Checking results:
+
+result_size = 43
+ [Test Bench (main) ] detected rects: 50 89 35 35
+ [Test Bench (main) ] detected rects: 48 91 35 35
+ [Test Bench (main) ] detected rects: 49 91 35 35
+ [Test Bench (main) ] detected rects: 50 91 35 35
+ [Test Bench (main) ] detected rects: 48 92 35 35
+ [Test Bench (main) ] detected rects: 98 94 35 35
+ [Test Bench (main) ] detected rects: 43 86 41 41
+ [Test Bench (main) ] detected rects: 45 86 41 41
+ [Test Bench (main) ] detected rects: 47 86 41 41
+ [Test Bench (main) ] detected rects: 48 86 41 41
+ [Test Bench (main) ] detected rects: 140 86 41 41
+ [Test Bench (main) ] detected rects: 173 86 41 41
+ [Test Bench (main) ] detected rects: 175 86 41 41
+ [Test Bench (main) ] detected rects: 176 86 41 41
+ [Test Bench (main) ] detected rects: 43 88 41 41
+ [Test Bench (main) ] detected rects: 45 88 41 41
+ [Test Bench (main) ] detected rects: 47 88 41 41
+ [Test Bench (main) ] detected rects: 48 88 41 41
+ [Test Bench (main) ] detected rects: 92 88 41 41
+ [Test Bench (main) ] detected rects: 93 88 41 41
+ [Test Bench (main) ] detected rects: 92 90 41 41
+ [Test Bench (main) ] detected rects: 41 81 50 50
+ [Test Bench (main) ] detected rects: 131 81 50 50
+ [Test Bench (main) ] detected rects: 133 81 50 50
+ [Test Bench (main) ] detected rects: 172 81 50 50
+ [Test Bench (main) ] detected rects: 41 83 50 50
+ [Test Bench (main) ] detected rects: 44 83 50 50
+ [Test Bench (main) ] detected rects: 131 83 50 50
+ [Test Bench (main) ] detected rects: 133 83 50 50
+ [Test Bench (main) ] detected rects: 135 83 50 50
+ [Test Bench (main) ] detected rects: 170 83 50 50
+ [Test Bench (main) ] detected rects: 89 85 50 50
+ [Test Bench (main) ] detected rects: 133 85 50 50
+ [Test Bench (main) ] detected rects: 127 75 60 60
+ [Test Bench (main) ] detected rects: 124 77 60 60
+ [Test Bench (main) ] detected rects: 127 77 60 60
+ [Test Bench (main) ] detected rects: 129 77 60 60
+ [Test Bench (main) ] detected rects: 124 80 60 60
+ [Test Bench (main) ] detected rects: 127 80 60 60
+ [Test Bench (main) ] detected rects: 129 80 60 60
+ [Test Bench (main) ] detected rects: 127 82 60 60
+ [Test Bench (main) ] detected rects: 129 82 60 60
+ [Test Bench (main) ] detected rects: 119 72 72 72
+-- saving output image [Start] --
+Unable to open file 
+
+-- saving output image [Done] --
+rm ./Test_host
