@@ -43,18 +43,20 @@ if __name__ == "__main__":
   prflow_params = {} 
   args = parser.parse_args()
   benchmark_name = args.benchmark_name  
-  input_file_name = './input_files/hls_src/' + benchmark_name + '/architecture.xml'
-  root = xml.etree.ElementTree.parse(input_file_name).getroot()
-  links = root.findall('link')	
+  root = xml.etree.ElementTree.parse('common/configure/configure.xml').getroot()
   specs = root.findall('spec')
   network = root.findall('network')
-  functions = root.findall('function')
   clock =root.findall('clock')
   datawidth_in=root.findall('datawidth_in')
   datawidth_out=root.findall('datawidth_out')
   place_holder=root.findall('place_holder')
   network=root.findall('network')
 
+
+  input_file_name = './input_files/hls_src/' + benchmark_name + '/architecture.xml'
+  root = xml.etree.ElementTree.parse(input_file_name).getroot()
+  functions = root.findall('function')
+  links = root.findall('link')	
 
   place_holder_dict = {}
   hls_fun_list = []
@@ -216,6 +218,7 @@ if __name__ == "__main__":
       #####################################################################################
       #process impl timing
       file_name = './workspace/F004_pr_'+benchmark_name+'/page_' + page_num + '/runLogImpl_' + page_num + '.log'
+      print file_name
       try: 
         file_in = open(file_name, 'r')
         run_time_list = []

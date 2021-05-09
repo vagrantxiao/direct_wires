@@ -34,7 +34,7 @@ class gen_hls:
     qsub_main_sh.write('#!/bin/bash -e\n') 
     qsub_main_sh.write('emailAddr=\"'+self.prflow_params['email']+'\"\n\n')
     hls_fun_list = self.prflow_params['hls_fun_list']
-    hls_fun_list.append(self.prflow_params['mono_function'])
+    # hls_fun_list.append(self.prflow_params['mono_function'])
     iter_num = 1
     for fun_name in hls_fun_list:
       #generate the sh files

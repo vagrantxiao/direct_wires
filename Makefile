@@ -29,29 +29,48 @@ overlay:
 .PHONY: optical_flow
 optical_flow:
 	python2 ./pr_flow.py optical_flow  
+	cd workspace/F002_hls_$@ && ./main.sh
+	cd workspace/F003_syn_$@ && ./main.sh
+	cd workspace/F004_pr_$@ && ./main.sh
 
 .PHONY: dg_reg
 dg_reg:
 	python2 ./pr_flow.py dg_reg 
+	cd workspace/F002_hls_$@ && ./main.sh
+	cd workspace/F003_syn_$@ && ./main.sh
+	cd workspace/F004_pr_$@ && ./main.sh
+
 
 .PHONY: bnn
 bnn:
 	python2 ./pr_flow.py bnn 
+	cd workspace/F002_hls_$@ && ./main.sh
+	cd workspace/F003_syn_$@ && ./main.sh
+	cd workspace/F004_pr_$@ && ./main.sh
+
 
 .PHONY: rendering
 rendering:
 	python2 ./pr_flow.py rendering  
-	cd workspace/F002_hls_rendering && ./main.sh
-	cd workspace/F003_syn_rendering && ./main.sh
-	cd workspace/F004_pr_rendering && ./main.sh
+	cd workspace/F002_hls_$@ && ./main.sh
+	cd workspace/F003_syn_$@ && ./main.sh
+	cd workspace/F004_pr_$@ && ./main.sh
+
 
 .PHONY: spam_filter
 spam_filter:
 	python2 ./pr_flow.py  spam_filter
+	cd workspace/F002_hls_$@ && ./main.sh
+	cd workspace/F003_syn_$@ && ./main.sh
+	cd workspace/F004_pr_$@ && ./main.sh
+
 
 .PHONY: face_detection
 face_detection:
 	python2 ./pr_flow.py  face_detection
+	cd workspace/F002_hls_$@ && ./main.sh
+	cd workspace/F003_syn_$@ && ./main.sh
+	cd workspace/F004_pr_$@ && ./main.sh
 
 
 .PHONY: partial
@@ -61,12 +80,12 @@ partial:
 
 .PHONY: report 
 report:
-	 python2 ./pr_flow/gen_report.py bnn
-	 python2 ./pr_flow/gen_report.py dg_reg
-	 python2 ./pr_flow/gen_report.py face_detection
+	 #python2 ./pr_flow/gen_report.py bnn
+	 #python2 ./pr_flow/gen_report.py dg_reg
+	 #python2 ./pr_flow/gen_report.py face_detection
 	 python2 ./pr_flow/gen_report.py optical_flow
-	 python2 ./pr_flow/gen_report.py rendering
-	 python2 ./pr_flow/gen_report.py spam_filter
+	 #python2 ./pr_flow/gen_report.py rendering
+	 #python2 ./pr_flow/gen_report.py spam_filter
 
 clean:
 
