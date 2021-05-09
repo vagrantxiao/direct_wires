@@ -80,7 +80,7 @@ class gen_impl_leaf_files(gen_basic):
       page_num = page
       fun_name = self.get_key(page, self.prflow_params['mapping_dict'])
       lines_list.append('cd ./page_'+str(page_num)) 
-      if iter_num % int(self.prflow_params['maxThreads']) == 0:
+      if iter_num % int(self.prflow_params['jobNum']) == 0:
         lines_list.append('vivado -mode batch -source ./impl_'+fun_name+'.tcl') 
       elif iter_num == len(used_pages_list):
         lines_list.append('vivado -mode batch -source ./impl_'+fun_name+'.tcl') 

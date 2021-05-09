@@ -461,7 +461,7 @@ class gen_syn_leaf_files(gen_basic):
     iter_num = 1
     for page in self.used_pages:
       lines_list.append('cd ./' + page) 
-      if iter_num % int(self.prflow_params['maxThreads']) == 0:
+      if iter_num % int(self.prflow_params['jobNum']) == 0:
         lines_list.append('vivado -mode batch -source ./syn_page.tcl') 
       elif iter_num == len(self.used_pages):
         lines_list.append('vivado -mode batch -source ./syn_page.tcl') 

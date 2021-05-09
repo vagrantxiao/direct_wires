@@ -43,7 +43,7 @@ class gen_static(gen_basic):
     iter_num = 1
     for fun_name in self.dummy_list:
       lines_list.append('cd ./dummy_repo/' + fun_name)
-      if iter_num % int(self.prflow_params['maxThreads']) != 0:
+      if iter_num % int(self.prflow_params['jobNum']) != 0:
         lines_list.append('./run.sh&')
       else:
         lines_list.append('./run.sh')

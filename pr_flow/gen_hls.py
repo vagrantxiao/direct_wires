@@ -49,7 +49,7 @@ class gen_hls:
       qsub_run_sh.write('srun vivado_hls -f ./' + fun_name + '_prj/' + fun_name + '/script.tcl\n') 
       qsub_run_sh.close()
       os.system('chmod +x ./qsub_run_' + fun_name + '.sh')
-      if iter_num % int(self.prflow_params['maxThreads']) == 0:
+      if iter_num % int(self.prflow_params['jobNum']) == 0:
         main_sh.write('./run_' + fun_name +'.sh\n')  
       elif iter_num == len(hls_fun_list):
         main_sh.write('./run_' + fun_name +'.sh\n')  

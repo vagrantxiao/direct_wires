@@ -80,12 +80,12 @@ partial:
 
 .PHONY: report 
 report:
-	 #python2 ./pr_flow/gen_report.py bnn
-	 #python2 ./pr_flow/gen_report.py dg_reg
-	 #python2 ./pr_flow/gen_report.py face_detection
+	 python2 ./pr_flow/gen_report.py bnn
+	 python2 ./pr_flow/gen_report.py dg_reg
+	 python2 ./pr_flow/gen_report.py face_detection
 	 python2 ./pr_flow/gen_report.py optical_flow
-	 #python2 ./pr_flow/gen_report.py rendering
-	 #python2 ./pr_flow/gen_report.py spam_filter
+	 python2 ./pr_flow/gen_report.py rendering
+	 python2 ./pr_flow/gen_report.py spam_filter
 
 clean:
 
