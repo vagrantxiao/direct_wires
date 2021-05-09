@@ -4,10 +4,16 @@ applications by using existed PRflow framework, but without NoC bandwidth limita
 
 ### How DW prflow works?
 We quantize the MPSoC Fabrics into coarse-grained blocks as the figure below.
+The application is coposed of operators, which are connected by streaming
+interfaces.
 
 ![](images/overlay_new.jpg) 
 
+When we map the application, the operators will be mapped to the separated
+gridded fabrics. We will take the dataflow graph below as an example.
 
+![](images/dfg_rendering.jpg) 
+ 
 
 ## 1. Getting Started
 ```
