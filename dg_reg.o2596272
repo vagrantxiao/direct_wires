@@ -33873,3 +33873,2244 @@ Time (s): cpu = 00:03:40 ; elapsed = 00:03:35 . Memory (MB): peak = 3713.238 ; g
 Phase 3.8 Slice Area Swap
 
 Phase 3.6 DP Optimization
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: cabee687
+
+Time (s): cpu = 00:04:11 ; elapsed = 00:03:55 . Memory (MB): peak = 3686.582 ; gain = 580.320 ; free physical = 57881 ; free virtual = 94415
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.235. For the most accurate timing information please run report_timing.
+Phase 3.8 Slice Area Swap | Checksum: 1524409d9
+
+Time (s): cpu = 00:03:41 ; elapsed = 00:03:36 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57853 ; free virtual = 94387
+Phase 4.1.1 Post Placement Optimization | Checksum: 111ff696e
+
+Time (s): cpu = 00:04:12 ; elapsed = 00:03:56 . Memory (MB): peak = 3686.582 ; gain = 580.320 ; free physical = 57852 ; free virtual = 94386
+Phase 3.5 Small Shape Clustering | Checksum: 1604af199
+
+Time (s): cpu = 00:03:23 ; elapsed = 00:03:18 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57835 ; free virtual = 94369
+
+Phase 3.9 Commit Slice Clusters
+
+Phase 3.6 DP Optimization
+Phase 4.1 Post Commit Optimization | Checksum: 111ff696e
+
+Time (s): cpu = 00:04:12 ; elapsed = 00:03:56 . Memory (MB): peak = 3686.582 ; gain = 580.320 ; free physical = 57854 ; free virtual = 94388
+Phase 3.11 Re-assign LUT pins | Checksum: 1bf7b922f
+
+Time (s): cpu = 00:04:01 ; elapsed = 00:03:46 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57847 ; free virtual = 94381
+
+Phase 3.12 Pipeline Register Optimization
+Phase 3.12 Pipeline Register Optimization | Checksum: 1bf7b922f
+
+Time (s): cpu = 00:04:02 ; elapsed = 00:03:46 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57864 ; free virtual = 94398
+
+Phase 4.2 Post Placement Cleanup
+Phase 3 Detail Placement | Checksum: 1bf7b922f
+
+Time (s): cpu = 00:04:02 ; elapsed = 00:03:46 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57876 ; free virtual = 94410
+Phase 4.2 Post Placement Cleanup | Checksum: 111ff696e
+
+Time (s): cpu = 00:04:12 ; elapsed = 00:03:56 . Memory (MB): peak = 3686.582 ; gain = 580.320 ; free physical = 57877 ; free virtual = 94412
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 3.9 Commit Slice Clusters | Checksum: 14055bbec
+
+Time (s): cpu = 00:04:17 ; elapsed = 00:03:58 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57858 ; free virtual = 94392
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 13a6eef83
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 3.10 Place Remaining
+Phase 3.10 Place Remaining | Checksum: 172ffdec9
+
+Time (s): cpu = 00:04:18 ; elapsed = 00:03:59 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57844 ; free virtual = 94378
+Phase 3.5 Small Shape Clustering | Checksum: 19c8283bc
+
+Time (s): cpu = 00:04:11 ; elapsed = 00:04:04 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57864 ; free virtual = 94398
+Phase 3.5 Small Shape Clustering | Checksum: 1ce5e0fc0
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:04:08 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57850 ; free virtual = 94385
+
+Phase 3.11 Re-assign LUT pins
+
+Phase 3.6 DP Optimization
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+
+Phase 3.6 DP Optimization
+Phase 4.1.1.1 BUFG Insertion | Checksum: 13a6eef83
+
+Time (s): cpu = 00:04:17 ; elapsed = 00:04:02 . Memory (MB): peak = 3716.988 ; gain = 597.328 ; free physical = 57841 ; free virtual = 94375
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.217. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 12ae2067f
+
+Time (s): cpu = 00:04:17 ; elapsed = 00:04:02 . Memory (MB): peak = 3716.988 ; gain = 597.328 ; free physical = 57837 ; free virtual = 94371
+
+Phase 2.2 Physical Synthesis In Placer
+Phase 4.1 Post Commit Optimization | Checksum: 12ae2067f
+
+Time (s): cpu = 00:04:18 ; elapsed = 00:04:02 . Memory (MB): peak = 3716.988 ; gain = 597.328 ; free physical = 57849 ; free virtual = 94383
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3679.238 ; gain = 0.000 ; free physical = 57845 ; free virtual = 94379
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+Phase 4.2 Post Placement Cleanup
+
+Phase 2.2 Physical Synthesis In Placer
+Phase 2.2 Physical Synthesis In Placer | Checksum: 23b7049a6
+
+Time (s): cpu = 00:03:44 ; elapsed = 00:03:36 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57854 ; free virtual = 94388
+Phase 4.2 Post Placement Cleanup | Checksum: 12ae2067f
+
+Time (s): cpu = 00:04:18 ; elapsed = 00:04:03 . Memory (MB): peak = 3716.988 ; gain = 597.328 ; free physical = 57855 ; free virtual = 94389
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3601.402 ; gain = 0.000 ; free physical = 57834 ; free virtual = 94368
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: 193e3ebf6
+
+Time (s): cpu = 00:04:09 ; elapsed = 00:04:03 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57825 ; free virtual = 94359
+Phase 2 Global Placement | Checksum: 1fad6e3ec
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:37 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57807 ; free virtual = 94341
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.11 Re-assign LUT pins | Checksum: 1b2352be1
+
+Time (s): cpu = 00:04:20 ; elapsed = 00:04:02 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57789 ; free virtual = 94323
+
+Phase 4.1.1 Post Placement Optimization
+Phase 3.1 Commit Multi Column Macros | Checksum: 1fad6e3ec
+
+Time (s): cpu = 00:03:46 ; elapsed = 00:03:37 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57816 ; free virtual = 94350
+
+Phase 3.12 Pipeline Register Optimization
+Phase 3.12 Pipeline Register Optimization | Checksum: 1b2352be1
+
+Time (s): cpu = 00:04:20 ; elapsed = 00:04:02 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57804 ; free virtual = 94338
+Post Placement Optimization Initialization | Checksum: 1fab10e35
+
+Phase 4.1.1.1 BUFG Insertion
+Phase 2 Global Placement | Checksum: 183610bfb
+
+Time (s): cpu = 00:04:10 ; elapsed = 00:04:04 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57826 ; free virtual = 94360
+Phase 3 Detail Placement | Checksum: 1b2352be1
+
+Time (s): cpu = 00:04:20 ; elapsed = 00:04:02 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57821 ; free virtual = 94355
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 183610bfb
+
+Time (s): cpu = 00:04:10 ; elapsed = 00:04:04 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57826 ; free virtual = 94360
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1fab10e35
+
+Time (s): cpu = 00:04:08 ; elapsed = 00:03:51 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57808 ; free virtual = 94343
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.339. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 166fe3d7f
+
+Time (s): cpu = 00:04:08 ; elapsed = 00:03:51 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57805 ; free virtual = 94339
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 3.9 Commit Slice Clusters | Checksum: 175d45fa5
+
+Time (s): cpu = 00:03:49 ; elapsed = 00:03:37 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57803 ; free virtual = 94337
+Phase 4.1 Post Commit Optimization | Checksum: 166fe3d7f
+
+Time (s): cpu = 00:04:08 ; elapsed = 00:03:51 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57795 ; free virtual = 94329
+Phase 3.5 Small Shape Clustering | Checksum: b8b1af9a
+
+Time (s): cpu = 00:03:31 ; elapsed = 00:03:22 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57797 ; free virtual = 94331
+
+Phase 4.2 Post Placement Cleanup
+
+Phase 3.10 Place Remaining
+
+Phase 3.6 DP Optimization
+Phase 4.2 Post Placement Cleanup | Checksum: 166fe3d7f
+
+Time (s): cpu = 00:04:09 ; elapsed = 00:03:52 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57792 ; free virtual = 94326
+Phase 3.10 Place Remaining | Checksum: 1ba0a4670
+
+Time (s): cpu = 00:03:49 ; elapsed = 00:03:38 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57789 ; free virtual = 94323
+
+Phase 3.11 Re-assign LUT pins
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 206bc0a3a
+
+Time (s): cpu = 00:04:12 ; elapsed = 00:04:06 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57754 ; free virtual = 94288
+
+Phase 3.3 Area Swap Optimization
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1a87aaad4
+
+Time (s): cpu = 00:03:48 ; elapsed = 00:03:40 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57754 ; free virtual = 94288
+Phase 3.3 Area Swap Optimization | Checksum: 2368caa40
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:04:06 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57751 ; free virtual = 94286
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 2368caa40
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:04:06 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57746 ; free virtual = 94280
+
+Phase 3.3 Area Swap Optimization
+
+Phase 3.5 Small Shape Clustering
+Phase 3.3 Area Swap Optimization | Checksum: 28ab05555
+
+Time (s): cpu = 00:03:49 ; elapsed = 00:03:40 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57742 ; free virtual = 94276
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 28ab05555
+
+Time (s): cpu = 00:03:49 ; elapsed = 00:03:40 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57735 ; free virtual = 94269
+Phase 3.5 Small Shape Clustering | Checksum: 145bf9054
+
+Time (s): cpu = 00:04:12 ; elapsed = 00:04:06 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57731 ; free virtual = 94265
+
+Phase 3.5 Small Shape Clustering
+
+Phase 3.6 DP Optimization
+Phase 3.6 DP Optimization | Checksum: 22dfa5375
+
+Time (s): cpu = 00:03:53 ; elapsed = 00:03:48 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57714 ; free virtual = 94248
+
+Phase 3.7 Flow Legalize Slice Clusters
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 29ba47d8d
+
+Phase 4.1.1.1 BUFG Insertion
+Phase 3.11 Re-assign LUT pins | Checksum: 19e656c8b
+
+Time (s): cpu = 00:03:53 ; elapsed = 00:03:41 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57679 ; free virtual = 94213
+
+Phase 3.12 Pipeline Register Optimization
+Phase 3.9 Commit Slice Clusters | Checksum: fc7604ee
+
+Time (s): cpu = 00:03:57 ; elapsed = 00:03:46 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57676 ; free virtual = 94211
+Phase 3.12 Pipeline Register Optimization | Checksum: 19e656c8b
+
+Time (s): cpu = 00:03:53 ; elapsed = 00:03:41 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57667 ; free virtual = 94201
+
+Phase 3.10 Place Remaining
+Phase 3 Detail Placement | Checksum: 19e656c8b
+
+Time (s): cpu = 00:03:53 ; elapsed = 00:03:42 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57666 ; free virtual = 94200
+Phase 3.10 Place Remaining | Checksum: 15bf42ae1
+
+Time (s): cpu = 00:03:57 ; elapsed = 00:03:46 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57661 ; free virtual = 94195
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 3.11 Re-assign LUT pins
+Phase 4.1.1.1 BUFG Insertion | Checksum: 29ba47d8d
+
+Time (s): cpu = 00:04:28 ; elapsed = 00:04:08 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57595 ; free virtual = 94129
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.235. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 21c790b59
+
+Time (s): cpu = 00:04:29 ; elapsed = 00:04:08 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57617 ; free virtual = 94151
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 1fc3838f6
+
+Time (s): cpu = 00:03:55 ; elapsed = 00:03:51 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57598 ; free virtual = 94132
+
+Phase 3.8 Slice Area Swap
+Phase 4.1 Post Commit Optimization | Checksum: 21c790b59
+
+Time (s): cpu = 00:04:29 ; elapsed = 00:04:08 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57566 ; free virtual = 94100
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 21c790b59
+
+Time (s): cpu = 00:04:30 ; elapsed = 00:04:09 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57549 ; free virtual = 94083
+Phase 3.6 DP Optimization | Checksum: 1e3a3fe02
+
+Time (s): cpu = 00:03:37 ; elapsed = 00:03:30 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57544 ; free virtual = 94078
+
+Phase 3.7 Flow Legalize Slice Clusters
+Phase 3.11 Re-assign LUT pins | Checksum: 13b4f0662
+Phase 3.8 Slice Area Swap | Checksum: 1e686341a
+
+Time (s): cpu = 00:04:00 ; elapsed = 00:03:49 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57555 ; free virtual = 94089
+
+Time (s): cpu = 00:03:57 ; elapsed = 00:03:53 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57555 ; free virtual = 94089
+
+Phase 3.12 Pipeline Register Optimization
+Phase 3.6 DP Optimization | Checksum: 1757eec79
+
+Time (s): cpu = 00:04:22 ; elapsed = 00:04:15 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57577 ; free virtual = 94111
+Phase 3.12 Pipeline Register Optimization | Checksum: 13b4f0662
+
+Time (s): cpu = 00:04:00 ; elapsed = 00:03:49 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57579 ; free virtual = 94113
+
+Phase 3.9 Commit Slice Clusters
+
+Phase 3.7 Flow Legalize Slice Clusters
+Phase 3 Detail Placement | Checksum: 13b4f0662
+
+Time (s): cpu = 00:04:00 ; elapsed = 00:03:49 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57605 ; free virtual = 94139
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 3.5 Small Shape Clustering | Checksum: 1e31193c9
+
+Time (s): cpu = 00:04:19 ; elapsed = 00:04:12 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57603 ; free virtual = 94137
+
+Phase 3.6 DP Optimization
+Phase 3.6 DP Optimization | Checksum: 1a74afa73
+
+Time (s): cpu = 00:04:25 ; elapsed = 00:04:20 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57588 ; free virtual = 94122
+Phase 3.6 DP Optimization | Checksum: e3bf8379
+
+Time (s): cpu = 00:03:37 ; elapsed = 00:03:32 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57614 ; free virtual = 94149
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 3.7 Flow Legalize Slice Clusters
+
+Phase 4.1.1 Post Placement Optimization
+
+Phase 3.7 Flow Legalize Slice Clusters
+Post Placement Optimization Initialization | Checksum: 1577f0a8e
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1577f0a8e
+
+Time (s): cpu = 00:03:59 ; elapsed = 00:03:46 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57570 ; free virtual = 94104
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.216. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1daf49363
+
+Time (s): cpu = 00:04:00 ; elapsed = 00:03:46 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57555 ; free virtual = 94089
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 24ce1e297
+
+Time (s): cpu = 00:03:40 ; elapsed = 00:03:34 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57544 ; free virtual = 94078
+
+Phase 3.8 Slice Area Swap
+
+Phase 4.3 Placer Reporting
+Phase 4.1 Post Commit Optimization | Checksum: 1daf49363
+
+Time (s): cpu = 00:04:00 ; elapsed = 00:03:47 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57553 ; free virtual = 94087
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 1d75841b1
+
+Time (s): cpu = 00:04:25 ; elapsed = 00:04:17 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57527 ; free virtual = 94062
+
+Phase 3.8 Slice Area Swap
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1daf49363
+
+Time (s): cpu = 00:04:00 ; elapsed = 00:03:47 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57515 ; free virtual = 94049
+Phase 4.3 Placer Reporting | Checksum: 3998b08de
+
+Time (s): cpu = 00:04:21 ; elapsed = 00:04:07 . Memory (MB): peak = 3679.242 ; gain = 578.969 ; free physical = 57516 ; free virtual = 94050
+
+Phase 4.4 Final Placement Cleanup
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 1f2818dc2
+
+Time (s): cpu = 00:04:28 ; elapsed = 00:04:22 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57511 ; free virtual = 94045
+
+Phase 3.8 Slice Area Swap
+
+Phase 4.1.1 Post Placement Optimization
+Phase 3.5 Small Shape Clustering | Checksum: 291f5b071
+
+Time (s): cpu = 00:03:58 ; elapsed = 00:03:49 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57453 ; free virtual = 93987
+Post Placement Optimization Initialization | Checksum: e4c08969
+
+Phase 4.1.1.1 BUFG Insertion
+Phase 3.8 Slice Area Swap | Checksum: 17f717479
+
+Time (s): cpu = 00:03:42 ; elapsed = 00:03:35 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57454 ; free virtual = 93988
+
+Phase 3.6 DP Optimization
+Phase 4.4 Final Placement Cleanup | Checksum: 390e145cd
+
+Time (s): cpu = 00:04:22 ; elapsed = 00:04:08 . Memory (MB): peak = 3679.242 ; gain = 578.969 ; free physical = 57453 ; free virtual = 93987
+
+Phase 3.9 Commit Slice Clusters
+Phase 3.8 Slice Area Swap | Checksum: 21e6ed6ca
+
+Time (s): cpu = 00:04:27 ; elapsed = 00:04:19 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57483 ; free virtual = 94017
+
+Phase 3.9 Commit Slice Clusters
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 140736f21
+
+Time (s): cpu = 00:03:40 ; elapsed = 00:03:35 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57496 ; free virtual = 94030
+
+Phase 3.8 Slice Area Swap
+Phase 3.8 Slice Area Swap | Checksum: 17820ff1e
+
+Time (s): cpu = 00:04:28 ; elapsed = 00:04:23 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57492 ; free virtual = 94026
+
+Phase 3.9 Commit Slice Clusters
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 390e145cd
+
+Time (s): cpu = 00:04:23 ; elapsed = 00:04:08 . Memory (MB): peak = 3679.242 ; gain = 578.969 ; free physical = 57502 ; free virtual = 94037
+Phase 4.1.1.1 BUFG Insertion | Checksum: e4c08969
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:03:53 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57577 ; free virtual = 94111
+Phase 3.6 DP Optimization | Checksum: fcfb4561
+
+Time (s): cpu = 00:03:43 ; elapsed = 00:03:33 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57584 ; free virtual = 94118
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.380. For the most accurate timing information please run report_timing.
+
+Phase 3.7 Flow Legalize Slice Clusters
+Phase 4.1.1 Post Placement Optimization | Checksum: 12128237d
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:03:53 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57578 ; free virtual = 94113
+Phase 3.8 Slice Area Swap | Checksum: a4954235
+
+Time (s): cpu = 00:03:41 ; elapsed = 00:03:36 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57568 ; free virtual = 94102
+Ending Placer Task | Checksum: 2b026166f
+
+Time (s): cpu = 00:04:23 ; elapsed = 00:04:08 . Memory (MB): peak = 3679.242 ; gain = 578.969 ; free physical = 57574 ; free virtual = 94108
+Phase 4.1 Post Commit Optimization | Checksum: 12128237d
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:03:54 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57573 ; free virtual = 94107
+
+Phase 3.9 Commit Slice Clusters
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:04:55 ; elapsed = 00:04:29 . Memory (MB): peak = 3679.242 ; gain = 876.969 ; free physical = 57623 ; free virtual = 94157
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X2Y1_placed.dcp
+
+Phase 4.2 Post Placement Cleanup
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Phase 4.2 Post Placement Cleanup | Checksum: 12128237d
+
+Time (s): cpu = 00:04:07 ; elapsed = 00:03:54 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57622 ; free virtual = 94156
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3681.633 ; gain = 0.000 ; free physical = 57601 ; free virtual = 94149
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: 17addf911
+
+Time (s): cpu = 00:03:41 ; elapsed = 00:03:37 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57583 ; free virtual = 94136
+Phase 3.6 DP Optimization | Checksum: 20d552382
+
+Time (s): cpu = 00:04:24 ; elapsed = 00:04:18 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57566 ; free virtual = 94139
+
+Phase 3.7 Flow Legalize Slice Clusters
+Phase 2 Global Placement | Checksum: 117172cff
+
+Time (s): cpu = 00:03:43 ; elapsed = 00:03:38 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57561 ; free virtual = 94146
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 117172cff
+
+Time (s): cpu = 00:03:43 ; elapsed = 00:03:38 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57550 ; free virtual = 94137
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+
+Phase 2.2 Physical Synthesis In Placer
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: ca9143cb
+
+Time (s): cpu = 00:03:47 ; elapsed = 00:03:37 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57517 ; free virtual = 94115
+
+Phase 3.8 Slice Area Swap
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3687.293 ; gain = 0.000 ; free physical = 57472 ; free virtual = 94071
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: dec7a9ea
+
+Time (s): cpu = 00:03:53 ; elapsed = 00:03:47 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 57456 ; free virtual = 94056
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: e5fd16ef
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:40 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57396 ; free virtual = 94002
+
+Phase 3.3 Area Swap Optimization
+Phase 3.9 Commit Slice Clusters | Checksum: 1d763bbbe
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:04:02 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57386 ; free virtual = 93993
+Phase 3.8 Slice Area Swap | Checksum: 144e95fcf
+
+Time (s): cpu = 00:03:48 ; elapsed = 00:03:38 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57380 ; free virtual = 93989
+Phase 3.3 Area Swap Optimization | Checksum: de3afaf2
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:40 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57380 ; free virtual = 93988
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: de3afaf2
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:40 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57377 ; free virtual = 93986
+
+Phase 3.10 Place Remaining
+
+Phase 3.9 Commit Slice Clusters
+Phase 2 Global Placement | Checksum: 1a3544944
+
+Time (s): cpu = 00:03:55 ; elapsed = 00:03:48 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 57411 ; free virtual = 94021
+Phase 3.10 Place Remaining | Checksum: 20d8cf4c2
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:04:03 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57422 ; free virtual = 94031
+
+Phase 3.5 Small Shape Clustering
+
+Phase 3.11 Re-assign LUT pins
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1a3544944
+
+Time (s): cpu = 00:03:55 ; elapsed = 00:03:48 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 57403 ; free virtual = 94014
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 18c94f946
+
+Time (s): cpu = 00:04:28 ; elapsed = 00:04:22 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57400 ; free virtual = 94016
+
+Phase 3.8 Slice Area Swap
+Writing XDEF routing special nets.
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 3683.250 ; gain = 0.000 ; free physical = 57346 ; free virtual = 93970
+
+Phase 4.3 Placer Reporting
+Phase 3.8 Slice Area Swap | Checksum: 209c629a4
+
+Time (s): cpu = 00:04:30 ; elapsed = 00:04:23 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57276 ; free virtual = 93900
+
+Phase 3.9 Commit Slice Clusters
+Phase 3.11 Re-assign LUT pins | Checksum: 1cea6f6ce
+
+Time (s): cpu = 00:04:16 ; elapsed = 00:04:05 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57289 ; free virtual = 93913
+Phase 4.3 Placer Reporting | Checksum: 19b5f931d
+
+Time (s): cpu = 00:04:36 ; elapsed = 00:04:20 . Memory (MB): peak = 3686.582 ; gain = 580.320 ; free physical = 57299 ; free virtual = 93924
+
+Phase 4.4 Final Placement Cleanup
+
+Phase 3.12 Pipeline Register Optimization
+Phase 3.12 Pipeline Register Optimization | Checksum: 1cea6f6ce
+
+Time (s): cpu = 00:04:16 ; elapsed = 00:04:05 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57257 ; free virtual = 93882
+Phase 3 Detail Placement | Checksum: 1cea6f6ce
+
+Time (s): cpu = 00:04:16 ; elapsed = 00:04:05 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57238 ; free virtual = 93863
+Phase 4.4 Final Placement Cleanup | Checksum: 210d081f1
+
+Time (s): cpu = 00:04:37 ; elapsed = 00:04:21 . Memory (MB): peak = 3686.582 ; gain = 580.320 ; free physical = 57243 ; free virtual = 93868
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 172153079
+
+Time (s): cpu = 00:03:58 ; elapsed = 00:03:51 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 57243 ; free virtual = 93867
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 3.3 Area Swap Optimization
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 210d081f1
+Phase 3.3 Area Swap Optimization | Checksum: 1df4db428
+
+Time (s): cpu = 00:04:37 ; elapsed = 00:04:21 . Memory (MB): peak = 3686.582 ; gain = 580.320 ; free physical = 57226 ; free virtual = 93853
+
+Time (s): cpu = 00:03:58 ; elapsed = 00:03:51 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 57226 ; free virtual = 93853
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1df4db428
+
+Time (s): cpu = 00:03:58 ; elapsed = 00:03:51 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 57253 ; free virtual = 93881
+
+Phase 3.5 Small Shape Clustering
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Placer Task | Checksum: 195d4510b
+
+Time (s): cpu = 00:04:37 ; elapsed = 00:04:21 . Memory (MB): peak = 3686.582 ; gain = 580.320 ; free physical = 57275 ; free virtual = 93904
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:09 ; elapsed = 00:04:42 . Memory (MB): peak = 3686.582 ; gain = 948.016 ; free physical = 57276 ; free virtual = 93906
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X3Y3_placed.dcp
+Phase 3.6 DP Optimization | Checksum: 1c487d5d5
+
+Time (s): cpu = 00:04:33 ; elapsed = 00:04:25 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57298 ; free virtual = 93928
+Phase 3.9 Commit Slice Clusters | Checksum: 132aee50d
+
+Time (s): cpu = 00:03:56 ; elapsed = 00:03:44 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57306 ; free virtual = 93937
+
+Phase 3.7 Flow Legalize Slice Clusters
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Phase 3.9 Commit Slice Clusters | Checksum: 135652202
+
+Time (s): cpu = 00:03:57 ; elapsed = 00:03:45 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57308 ; free virtual = 93940
+
+Phase 3.10 Place Remaining
+Phase 3.10 Place Remaining | Checksum: 1630c5682
+
+Time (s): cpu = 00:03:56 ; elapsed = 00:03:45 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57283 ; free virtual = 93924
+Phase 3.9 Commit Slice Clusters | Checksum: 12aa579fa
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:29 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57270 ; free virtual = 93911
+
+Phase 4.3 Placer Reporting
+
+Phase 3.10 Place Remaining
+
+Phase 3.11 Re-assign LUT pins
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X2Y1/X2Y1_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3683.250 ; gain = 4.008 ; free physical = 57397 ; free virtual = 93953
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+Phase 3.9 Commit Slice Clusters | Checksum: 28a2ea0e6
+
+Time (s): cpu = 00:04:45 ; elapsed = 00:04:33 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57397 ; free virtual = 93954
+
+Phase 3.10 Place Remaining
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+
+Phase 4.3 Placer Reporting
+Phase 3.10 Place Remaining | Checksum: 17670ce8c
+
+Time (s): cpu = 00:03:58 ; elapsed = 00:03:46 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57381 ; free virtual = 93943
+Phase 3.10 Place Remaining | Checksum: 1194fb0ec
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:29 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57377 ; free virtual = 93940
+
+Phase 3.11 Re-assign LUT pins
+
+Phase 3.11 Re-assign LUT pins
+
+Phase 3.10 Place Remaining
+Phase 4.3 Placer Reporting | Checksum: 3919a9e67
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:30 . Memory (MB): peak = 3678.938 ; gain = 580.969 ; free physical = 57356 ; free virtual = 93928
+
+Phase 4.4 Final Placement Cleanup
+Phase 3.10 Place Remaining | Checksum: 1e56cb940
+
+Time (s): cpu = 00:04:46 ; elapsed = 00:04:34 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57358 ; free virtual = 93931
+Phase 4.3 Placer Reporting | Checksum: 135b2136a
+
+Time (s): cpu = 00:04:42 ; elapsed = 00:04:27 . Memory (MB): peak = 3716.988 ; gain = 597.328 ; free physical = 57353 ; free virtual = 93931
+
+Phase 4.4 Final Placement Cleanup
+
+Phase 3.11 Re-assign LUT pins
+Phase 4.4 Final Placement Cleanup | Checksum: 2f3185687
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:31 . Memory (MB): peak = 3678.938 ; gain = 580.969 ; free physical = 57291 ; free virtual = 93878
+Phase 4.4 Final Placement Cleanup | Checksum: 1d5b9f8cc
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:28 . Memory (MB): peak = 3716.988 ; gain = 597.328 ; free physical = 57296 ; free virtual = 93885
+
+Phase 4.1.1 Post Placement Optimization
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2f3185687
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:32 . Memory (MB): peak = 3678.938 ; gain = 580.969 ; free physical = 57268 ; free virtual = 93860
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1d5b9f8cc
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:29 . Memory (MB): peak = 3716.988 ; gain = 597.328 ; free physical = 57325 ; free virtual = 93918
+Post Placement Optimization Initialization | Checksum: f5f03fb0
+
+Phase 4.1.1.1 BUFG Insertion
+Phase 3.11 Re-assign LUT pins | Checksum: 1a727c631
+
+Time (s): cpu = 00:03:59 ; elapsed = 00:03:47 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57378 ; free virtual = 93975
+
+Phase 3.12 Pipeline Register Optimization
+Ending Placer Task | Checksum: 1f56f559f
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:32 . Memory (MB): peak = 3678.938 ; gain = 580.969 ; free physical = 57394 ; free virtual = 93992
+Ending Placer Task | Checksum: fea43519
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:29 . Memory (MB): peak = 3716.988 ; gain = 597.328 ; free physical = 57386 ; free virtual = 93985
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:20 ; elapsed = 00:04:56 . Memory (MB): peak = 3678.938 ; gain = 938.664 ; free physical = 57398 ; free virtual = 93997
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X1Y5_placed.dcp
+Phase 3.12 Pipeline Register Optimization | Checksum: 1a727c631
+
+Time (s): cpu = 00:03:59 ; elapsed = 00:03:47 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57398 ; free virtual = 93997
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:18 ; elapsed = 00:04:51 . Memory (MB): peak = 3716.988 ; gain = 978.719 ; free physical = 57385 ; free virtual = 93985
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X0Y3_placed.dcp
+Phase 3 Detail Placement | Checksum: 1a727c631
+
+Time (s): cpu = 00:03:59 ; elapsed = 00:03:48 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57380 ; free virtual = 93982
+Phase 4.1.1.1 BUFG Insertion | Checksum: f5f03fb0
+
+Time (s): cpu = 00:04:22 ; elapsed = 00:04:09 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57381 ; free virtual = 93982
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.213. For the most accurate timing information please run report_timing.
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1.1 Post Placement Optimization | Checksum: 9187c8de
+
+Time (s): cpu = 00:04:22 ; elapsed = 00:04:10 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57376 ; free virtual = 93979
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 1c03a165a
+Phase 3.11 Re-assign LUT pins | Checksum: c7e0bec8
+
+Time (s): cpu = 00:04:36 ; elapsed = 00:04:29 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57359 ; free virtual = 93969
+
+Phase 3.8 Slice Area Swap
+
+Time (s): cpu = 00:04:47 ; elapsed = 00:04:32 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57359 ; free virtual = 93970
+Phase 4.1 Post Commit Optimization | Checksum: 9187c8de
+
+Time (s): cpu = 00:04:22 ; elapsed = 00:04:10 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57356 ; free virtual = 93966
+
+Phase 3.12 Pipeline Register Optimization
+Phase 3.12 Pipeline Register Optimization | Checksum: c7e0bec8
+
+Time (s): cpu = 00:04:47 ; elapsed = 00:04:32 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57309 ; free virtual = 93942
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 9187c8de
+
+Time (s): cpu = 00:04:23 ; elapsed = 00:04:10 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 57276 ; free virtual = 93923
+Phase 3 Detail Placement | Checksum: c7e0bec8
+
+Time (s): cpu = 00:04:47 ; elapsed = 00:04:32 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57278 ; free virtual = 93926
+Phase 3.6 DP Optimization | Checksum: 22ac7f1c4
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:04:04 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57293 ; free virtual = 93943
+Phase 3.11 Re-assign LUT pins | Checksum: 186c1a705
+
+Time (s): cpu = 00:04:02 ; elapsed = 00:03:49 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57261 ; free virtual = 93927
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 3.7 Flow Legalize Slice Clusters
+
+Phase 3.12 Pipeline Register Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 3.11 Re-assign LUT pins | Checksum: 159a55b5c
+
+Time (s): cpu = 00:04:49 ; elapsed = 00:04:37 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57271 ; free virtual = 93952
+
+Phase 3.12 Pipeline Register Optimization
+Phase 3.8 Slice Area Swap | Checksum: 1d369313e
+
+Time (s): cpu = 00:04:37 ; elapsed = 00:04:30 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57268 ; free virtual = 93954
+Phase 3.12 Pipeline Register Optimization | Checksum: 186c1a705
+
+Time (s): cpu = 00:04:02 ; elapsed = 00:03:49 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57268 ; free virtual = 93954
+
+Phase 3.9 Commit Slice Clusters
+Phase 3.12 Pipeline Register Optimization | Checksum: 159a55b5c
+
+Time (s): cpu = 00:04:49 ; elapsed = 00:04:37 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57293 ; free virtual = 93988
+Phase 3 Detail Placement | Checksum: 186c1a705
+
+Time (s): cpu = 00:04:02 ; elapsed = 00:03:50 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57293 ; free virtual = 93992
+Phase 3 Detail Placement | Checksum: 159a55b5c
+
+Time (s): cpu = 00:04:49 ; elapsed = 00:04:38 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57293 ; free virtual = 93995
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 3.5 Small Shape Clustering | Checksum: 101e86f75
+
+Time (s): cpu = 00:03:54 ; elapsed = 00:03:49 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57310 ; free virtual = 94015
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 3.9 Commit Slice Clusters | Checksum: 18ad2ef3b
+
+Time (s): cpu = 00:04:03 ; elapsed = 00:03:47 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57313 ; free virtual = 94020
+
+Phase 3.6 DP Optimization
+
+Phase 3.10 Place Remaining
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 3.10 Place Remaining | Checksum: 1de98ec62
+Writing XDEF routing.
+
+Time (s): cpu = 00:04:03 ; elapsed = 00:03:48 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57254 ; free virtual = 93973
+Writing XDEF routing logical nets.
+
+Phase 3.11 Re-assign LUT pins
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 3690.590 ; gain = 0.000 ; free physical = 57216 ; free virtual = 93956
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.3 Placer Reporting
+
+Phase 2.2 Physical Synthesis In Placer
+Phase 4.3 Placer Reporting | Checksum: 22bd46681
+
+Time (s): cpu = 00:04:36 ; elapsed = 00:04:19 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57195 ; free virtual = 93963
+
+Phase 4.4 Final Placement Cleanup
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3604.398 ; gain = 0.000 ; free physical = 57185 ; free virtual = 93955
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 3.5 Small Shape Clustering | Checksum: 1b9d2b2d0
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:03:59 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 57183 ; free virtual = 93957
+Phase 2.2 Physical Synthesis In Placer | Checksum: bea4d900
+
+Time (s): cpu = 00:03:51 ; elapsed = 00:03:47 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 57179 ; free virtual = 93953
+
+Phase 3.6 DP Optimization
+
+Phase 4.1.1 Post Placement Optimization
+Phase 4.4 Final Placement Cleanup | Checksum: 25fca6b51
+
+Time (s): cpu = 00:04:36 ; elapsed = 00:04:19 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57169 ; free virtual = 93947
+Post Placement Optimization Initialization | Checksum: 234945d4e
+
+Phase 4.1.1.1 BUFG Insertion
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Phase 3.11 Re-assign LUT pins | Checksum: 200fa5b06
+
+Time (s): cpu = 00:04:05 ; elapsed = 00:03:50 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57147 ; free virtual = 93934
+
+Phase 3.12 Pipeline Register Optimization
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 22d128665
+
+Time (s): cpu = 00:04:16 ; elapsed = 00:04:07 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57161 ; free virtual = 93950
+
+Phase 3.8 Slice Area Swap
+Phase 3.9 Commit Slice Clusters | Checksum: 2d4b9fa9a
+
+Time (s): cpu = 00:04:45 ; elapsed = 00:04:33 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57153 ; free virtual = 93942
+Phase 3.12 Pipeline Register Optimization | Checksum: 200fa5b06
+
+Time (s): cpu = 00:04:05 ; elapsed = 00:03:50 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57137 ; free virtual = 93927
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 25fca6b51
+
+Time (s): cpu = 00:04:37 ; elapsed = 00:04:20 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57129 ; free virtual = 93921
+Writing XDEF routing special nets.
+Phase 3 Detail Placement | Checksum: 200fa5b06
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:03:50 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57172 ; free virtual = 93970
+Write XDEF Complete: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 3682.945 ; gain = 0.000 ; free physical = 57194 ; free virtual = 93992
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Writing XDEF routing.
+
+Phase 3.10 Place Remaining
+
+Phase 4.1.1 Post Placement Optimization
+Writing XDEF routing logical nets.
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Writing XDEF routing special nets.
+Phase 3.10 Place Remaining | Checksum: 2a588f7ad
+
+Time (s): cpu = 00:04:46 ; elapsed = 00:04:34 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57170 ; free virtual = 93982
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 3720.996 ; gain = 0.000 ; free physical = 57176 ; free virtual = 93988
+Post Placement Optimization Initialization | Checksum: 17f786f1e
+
+Phase 4.1.1.1 BUFG Insertion
+Phase 4.1.1.1 BUFG Insertion | Checksum: 234945d4e
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:03:53 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57174 ; free virtual = 93985
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.325. For the most accurate timing information please run report_timing.
+Ending Placer Task | Checksum: 24580df83
+
+Time (s): cpu = 00:04:37 ; elapsed = 00:04:20 . Memory (MB): peak = 3645.684 ; gain = 549.961 ; free physical = 57171 ; free virtual = 93982
+
+Phase 3.11 Re-assign LUT pins
+Phase 4.1.1 Post Placement Optimization | Checksum: 1dce2687e
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:03:53 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57180 ; free virtual = 93992
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:07 ; elapsed = 00:04:40 . Memory (MB): peak = 3645.684 ; gain = 907.656 ; free physical = 57178 ; free virtual = 93990
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X0Y6_placed.dcp
+Phase 2 Global Placement | Checksum: 11631a988
+
+Time (s): cpu = 00:03:53 ; elapsed = 00:03:48 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 57177 ; free virtual = 93989
+Phase 4.1 Post Commit Optimization | Checksum: 1dce2687e
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:03:53 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57159 ; free virtual = 93972
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 11631a988
+
+Time (s): cpu = 00:03:53 ; elapsed = 00:03:48 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 57122 ; free virtual = 93935
+
+Phase 4.1.1 Post Placement Optimization
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+
+Phase 4.2 Post Placement Cleanup
+Phase 3.8 Slice Area Swap | Checksum: 257d09a61
+
+Time (s): cpu = 00:04:17 ; elapsed = 00:04:08 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57141 ; free virtual = 93956
+Post Placement Optimization Initialization | Checksum: 1ec01e509
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Post Placement Optimization Initialization | Checksum: 1720c41e3
+
+Phase 4.1.1.1 BUFG Insertion
+Phase 4.2 Post Placement Cleanup | Checksum: 1dce2687e
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:03:54 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 57128 ; free virtual = 93951
+
+Phase 3.9 Commit Slice Clusters
+Phase 4.1.1.1 BUFG Insertion | Checksum: 17f786f1e
+
+Time (s): cpu = 00:04:54 ; elapsed = 00:04:37 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57158 ; free virtual = 93985
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.618. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 15f0425a4
+
+Time (s): cpu = 00:04:54 ; elapsed = 00:04:38 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57140 ; free virtual = 93977
+Phase 4.1 Post Commit Optimization | Checksum: 15f0425a4
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:04:38 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57121 ; free virtual = 93966
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1ec01e509
+
+Time (s): cpu = 00:04:09 ; elapsed = 00:03:55 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57120 ; free virtual = 93976
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.978. For the most accurate timing information please run report_timing.
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.2 Post Placement Cleanup | Checksum: 15f0425a4
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:04:38 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 57107 ; free virtual = 93972
+Phase 4.1.1 Post Placement Optimization | Checksum: 253376f57
+
+Time (s): cpu = 00:04:09 ; elapsed = 00:03:55 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57102 ; free virtual = 93970
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1720c41e3
+
+Time (s): cpu = 00:04:56 ; elapsed = 00:04:43 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57101 ; free virtual = 93970
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.307. For the most accurate timing information please run report_timing.
+Phase 4.1 Post Commit Optimization | Checksum: 253376f57
+
+Time (s): cpu = 00:04:09 ; elapsed = 00:03:55 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57106 ; free virtual = 93977
+Phase 4.1.1 Post Placement Optimization | Checksum: e7efd348
+
+Time (s): cpu = 00:04:56 ; elapsed = 00:04:43 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57103 ; free virtual = 93976
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.1 Post Commit Optimization | Checksum: e7efd348
+
+Time (s): cpu = 00:04:57 ; elapsed = 00:04:43 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57109 ; free virtual = 93985
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1473e7a48
+
+Time (s): cpu = 00:03:55 ; elapsed = 00:03:50 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 57110 ; free virtual = 93986
+Phase 4.2 Post Placement Cleanup | Checksum: 253376f57
+
+Time (s): cpu = 00:04:10 ; elapsed = 00:03:56 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 57110 ; free virtual = 93988
+
+Phase 3.3 Area Swap Optimization
+
+Phase 4.2 Post Placement Cleanup
+Phase 3.3 Area Swap Optimization | Checksum: 152c1cee3
+
+Time (s): cpu = 00:03:55 ; elapsed = 00:03:50 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 57115 ; free virtual = 93998
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 152c1cee3
+
+Time (s): cpu = 00:03:55 ; elapsed = 00:03:50 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 57114 ; free virtual = 93998
+Phase 4.2 Post Placement Cleanup | Checksum: e7efd348
+
+Time (s): cpu = 00:04:57 ; elapsed = 00:04:44 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 57111 ; free virtual = 93995
+Phase 3.11 Re-assign LUT pins | Checksum: 1be6d3ec4
+
+Time (s): cpu = 00:04:48 ; elapsed = 00:04:36 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57143 ; free virtual = 93992
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X3Y3/X3Y3_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 3690.590 ; gain = 4.008 ; free physical = 57207 ; free virtual = 94002
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+
+Phase 3.12 Pipeline Register Optimization
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+
+Phase 3.5 Small Shape Clustering
+Phase 3.12 Pipeline Register Optimization | Checksum: 1be6d3ec4
+
+Time (s): cpu = 00:04:49 ; elapsed = 00:04:36 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57207 ; free virtual = 94003
+Phase 3 Detail Placement | Checksum: 1be6d3ec4
+
+Time (s): cpu = 00:04:49 ; elapsed = 00:04:37 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57206 ; free virtual = 94004
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 4.1.1 Post Placement Optimization
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Post Placement Optimization Initialization | Checksum: 19749961b
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X0Y3/X0Y3_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3720.996 ; gain = 4.008 ; free physical = 57228 ; free virtual = 93954
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 19749961b
+
+Time (s): cpu = 00:04:12 ; elapsed = 00:03:55 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57171 ; free virtual = 93902
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.298. For the most accurate timing information please run report_timing.
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X1Y5/X1Y5_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 3682.945 ; gain = 4.008 ; free physical = 57246 ; free virtual = 93889
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+Writing XDEF routing.
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Writing XDEF routing logical nets.
+Phase 4.1.1 Post Placement Optimization | Checksum: 16fd04181
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:03:56 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57230 ; free virtual = 93879
+Writing XDEF routing special nets.
+
+Phase 4.3 Placer Reporting
+Write XDEF Complete: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 3649.691 ; gain = 0.000 ; free physical = 57227 ; free virtual = 93882
+Phase 4.1 Post Commit Optimization | Checksum: 16fd04181
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:03:56 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57211 ; free virtual = 93866
+Phase 4.3 Placer Reporting | Checksum: 2cbbaf6a9
+
+Time (s): cpu = 00:04:58 ; elapsed = 00:04:37 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57205 ; free virtual = 93860
+
+Phase 4.4 Final Placement Cleanup
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 16fd04181
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:03:56 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 57216 ; free virtual = 93871
+Phase 4.4 Final Placement Cleanup | Checksum: 1ed21349b
+
+Time (s): cpu = 00:04:58 ; elapsed = 00:04:38 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57211 ; free virtual = 93866
+
+Phase 4.1.1 Post Placement Optimization
+Phase 3.9 Commit Slice Clusters | Checksum: 16a706d5c
+
+Time (s): cpu = 00:04:53 ; elapsed = 00:04:40 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57198 ; free virtual = 93853
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1ed21349b
+
+Time (s): cpu = 00:04:58 ; elapsed = 00:04:38 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57200 ; free virtual = 93855
+
+Phase 3.10 Place Remaining
+Post Placement Optimization Initialization | Checksum: 18b9caa08
+
+Phase 4.1.1.1 BUFG Insertion
+Phase 3.10 Place Remaining | Checksum: 10c051aab
+
+Time (s): cpu = 00:04:53 ; elapsed = 00:04:40 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57209 ; free virtual = 93864
+
+Phase 3.11 Re-assign LUT pins
+Ending Placer Task | Checksum: 1a54f9cd5
+
+Time (s): cpu = 00:04:58 ; elapsed = 00:04:38 . Memory (MB): peak = 3682.242 ; gain = 559.969 ; free physical = 57182 ; free virtual = 93838
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:33 ; elapsed = 00:05:01 . Memory (MB): peak = 3682.242 ; gain = 935.664 ; free physical = 57177 ; free virtual = 93833
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X1Y4_placed.dcp
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 18b9caa08
+
+Time (s): cpu = 00:04:54 ; elapsed = 00:04:41 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 57004 ; free virtual = 93672
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.400. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 16fece701
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:04:41 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 56936 ; free virtual = 93612
+Phase 4.1 Post Commit Optimization | Checksum: 16fece701
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:04:41 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 56876 ; free virtual = 93558
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 16fece701
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:04:42 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 56727 ; free virtual = 93421
+Phase 3.11 Re-assign LUT pins | Checksum: 1b107858d
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:04:42 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 56636 ; free virtual = 93340
+
+Phase 3.12 Pipeline Register Optimization
+Phase 3.12 Pipeline Register Optimization | Checksum: 1b107858d
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:04:42 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 56597 ; free virtual = 93303
+Phase 3 Detail Placement | Checksum: 1b107858d
+
+Time (s): cpu = 00:04:56 ; elapsed = 00:04:42 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 56634 ; free virtual = 93341
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 3.5 Small Shape Clustering | Checksum: 131385ea8
+
+Phase 4.3 Placer Reporting
+
+Time (s): cpu = 00:04:02 ; elapsed = 00:03:57 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 56720 ; free virtual = 93439
+
+Phase 3.6 DP Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X0Y6/X0Y6_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3649.691 ; gain = 4.008 ; free physical = 56911 ; free virtual = 93541
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Phase 3.6 DP Optimization | Checksum: ec69a412
+
+Time (s): cpu = 00:04:08 ; elapsed = 00:04:03 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57123 ; free virtual = 93756
+Phase 4.3 Placer Reporting | Checksum: 1ea1a9646
+
+Time (s): cpu = 00:04:29 ; elapsed = 00:04:16 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57123 ; free virtual = 93756
+
+Phase 4.4 Final Placement Cleanup
+
+Phase 3.7 Flow Legalize Slice Clusters
+Phase 4.4 Final Placement Cleanup | Checksum: 1529b3f93
+
+Time (s): cpu = 00:04:30 ; elapsed = 00:04:17 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57080 ; free virtual = 93717
+Phase 3.9 Commit Slice Clusters | Checksum: 2c356b686
+
+Time (s): cpu = 00:04:34 ; elapsed = 00:04:19 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57085 ; free virtual = 93723
+
+Phase 3.10 Place Remaining
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1529b3f93
+
+Time (s): cpu = 00:04:30 ; elapsed = 00:04:17 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57066 ; free virtual = 93708
+Phase 3.10 Place Remaining | Checksum: 28bdde8e6
+
+Time (s): cpu = 00:04:34 ; elapsed = 00:04:19 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57121 ; free virtual = 93763
+Phase 3.6 DP Optimization | Checksum: 1c6df4914
+
+Time (s): cpu = 00:04:19 ; elapsed = 00:04:12 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 57142 ; free virtual = 93785
+
+Phase 3.11 Re-assign LUT pins
+Ending Placer Task | Checksum: c9877d8c
+
+Time (s): cpu = 00:04:30 ; elapsed = 00:04:17 . Memory (MB): peak = 3716.969 ; gain = 615.328 ; free physical = 57100 ; free virtual = 93744
+
+Phase 3.7 Flow Legalize Slice Clusters
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:04 ; elapsed = 00:04:41 . Memory (MB): peak = 3716.969 ; gain = 976.695 ; free physical = 57120 ; free virtual = 93764
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X2Y3_placed.dcp
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 28bce8367
+
+Phase 4.1.1.1 BUFG Insertion
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 3686.250 ; gain = 0.000 ; free physical = 57006 ; free virtual = 93711
+Phase 4.1.1.1 BUFG Insertion | Checksum: 28bce8367
+
+Time (s): cpu = 00:05:02 ; elapsed = 00:04:47 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57014 ; free virtual = 93724
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.185. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 25e84aadb
+
+Time (s): cpu = 00:05:02 ; elapsed = 00:04:48 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 57009 ; free virtual = 93721
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 10148aa98
+
+Time (s): cpu = 00:04:12 ; elapsed = 00:04:06 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57013 ; free virtual = 93725
+
+Phase 3.8 Slice Area Swap
+Phase 4.1 Post Commit Optimization | Checksum: 25e84aadb
+
+Time (s): cpu = 00:05:03 ; elapsed = 00:04:48 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 56979 ; free virtual = 93692
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 25e84aadb
+
+Time (s): cpu = 00:05:03 ; elapsed = 00:04:48 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 56992 ; free virtual = 93708
+
+Phase 4.3 Placer Reporting
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Phase 3.11 Re-assign LUT pins | Checksum: 26ef34a65
+
+Time (s): cpu = 00:04:38 ; elapsed = 00:04:22 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57026 ; free virtual = 93745
+
+Phase 3.12 Pipeline Register Optimization
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Phase 3.12 Pipeline Register Optimization | Checksum: 26ef34a65
+
+Time (s): cpu = 00:04:38 ; elapsed = 00:04:23 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57024 ; free virtual = 93744
+Phase 4.3 Placer Reporting | Checksum: 1d8d7f9b8
+
+Time (s): cpu = 00:04:38 ; elapsed = 00:04:26 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 57014 ; free virtual = 93735
+
+Phase 4.4 Final Placement Cleanup
+Phase 3 Detail Placement | Checksum: 26ef34a65
+
+Time (s): cpu = 00:04:38 ; elapsed = 00:04:23 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 57019 ; free virtual = 93741
+Phase 3.8 Slice Area Swap | Checksum: 11426503d
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:04:08 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 57018 ; free virtual = 93739
+
+Phase 3.9 Commit Slice Clusters
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 266ee35d3
+
+Time (s): cpu = 00:04:23 ; elapsed = 00:04:15 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 56975 ; free virtual = 93699
+
+Phase 3.8 Slice Area Swap
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.4 Final Placement Cleanup | Checksum: 231394ff2
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:04:26 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 56970 ; free virtual = 93699
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 231394ff2
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:04:27 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 56963 ; free virtual = 93698
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Phase 3.8 Slice Area Swap | Checksum: 18dabcfc7
+
+Time (s): cpu = 00:04:24 ; elapsed = 00:04:17 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 56993 ; free virtual = 93732
+Ending Placer Task | Checksum: 194f18a08
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:04:27 . Memory (MB): peak = 3713.238 ; gain = 622.969 ; free physical = 56992 ; free virtual = 93732
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:12 ; elapsed = 00:04:49 . Memory (MB): peak = 3713.238 ; gain = 910.969 ; free physical = 56985 ; free virtual = 93726
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X3Y6_placed.dcp
+
+Phase 3.9 Commit Slice Clusters
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X1Y4/X1Y4_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 3686.250 ; gain = 4.008 ; free physical = 57064 ; free virtual = 93731
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Writing XDEF routing.
+Checksum: PlaceDB: c4a0ea68 ConstDB: 0 ShapeSum: ebbaadfd RouteDB: ffca7e0a
+Writing XDEF routing logical nets.
+
+Phase 1 Build RT Design
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 3720.977 ; gain = 0.000 ; free physical = 56805 ; free virtual = 93522
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 185aa309d
+
+Phase 4.1.1.1 BUFG Insertion
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 185aa309d
+
+Time (s): cpu = 00:04:45 ; elapsed = 00:04:28 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 55917 ; free virtual = 92656
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.120. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1c1c79bb2
+
+Time (s): cpu = 00:04:45 ; elapsed = 00:04:29 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 55830 ; free virtual = 92572
+Phase 4.1 Post Commit Optimization | Checksum: 1c1c79bb2
+
+Time (s): cpu = 00:04:46 ; elapsed = 00:04:29 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 55762 ; free virtual = 92507
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1c1c79bb2
+
+Time (s): cpu = 00:04:46 ; elapsed = 00:04:29 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 55757 ; free virtual = 92506
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X2Y3/X2Y3_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 3720.977 ; gain = 4.008 ; free physical = 56003 ; free virtual = 92663
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 3717.246 ; gain = 0.000 ; free physical = 56273 ; free virtual = 92952
+Phase 3.6 DP Optimization | Checksum: 12dc8416b
+
+Time (s): cpu = 00:04:17 ; elapsed = 00:04:11 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 56112 ; free virtual = 92792
+
+Phase 3.7 Flow Legalize Slice Clusters
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 17cb80637
+
+Time (s): cpu = 00:05:20 ; elapsed = 00:05:06 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 55779 ; free virtual = 92464
+
+Phase 4.4 Final Placement Cleanup
+Phase 3.9 Commit Slice Clusters | Checksum: 1574f4a33
+
+Time (s): cpu = 00:04:31 ; elapsed = 00:04:18 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 55810 ; free virtual = 92495
+
+Phase 3.10 Place Remaining
+Phase 4.4 Final Placement Cleanup | Checksum: 1a8ff3f54
+
+Time (s): cpu = 00:05:20 ; elapsed = 00:05:07 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 56220 ; free virtual = 92906
+Phase 3.10 Place Remaining | Checksum: 123add3fc
+
+Time (s): cpu = 00:04:32 ; elapsed = 00:04:19 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 56243 ; free virtual = 92928
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3 Placer Reporting
+
+Phase 3.11 Re-assign LUT pins
+Phase 4.3 Placer Reporting | Checksum: fccf79d3
+
+Time (s): cpu = 00:04:53 ; elapsed = 00:04:41 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 56328 ; free virtual = 93016
+
+Phase 4.4 Final Placement Cleanup
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1a8ff3f54
+
+Time (s): cpu = 00:05:21 ; elapsed = 00:05:08 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 56337 ; free virtual = 93025
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X3Y6/X3Y6_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3717.246 ; gain = 4.008 ; free physical = 56477 ; free virtual = 93074
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Phase 4.3 Placer Reporting | Checksum: 2b1da27a0
+
+Time (s): cpu = 00:04:32 ; elapsed = 00:04:19 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 56483 ; free virtual = 93080
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 154c1835c
+
+Time (s): cpu = 00:04:53 ; elapsed = 00:04:41 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 56485 ; free virtual = 93082
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 154c1835c
+
+Time (s): cpu = 00:04:54 ; elapsed = 00:04:42 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 56420 ; free virtual = 93017
+Ending Placer Task | Checksum: 171736f5e
+
+Time (s): cpu = 00:05:21 ; elapsed = 00:05:08 . Memory (MB): peak = 3678.941 ; gain = 577.969 ; free physical = 56470 ; free virtual = 93067
+Phase 3.9 Commit Slice Clusters | Checksum: 12c63cb08
+
+Time (s): cpu = 00:04:41 ; elapsed = 00:04:27 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 56473 ; free virtual = 93070
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:53 ; elapsed = 00:05:29 . Memory (MB): peak = 3678.941 ; gain = 940.664 ; free physical = 56467 ; free virtual = 93065
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X2Y6_placed.dcp
+Phase 4.4 Final Placement Cleanup | Checksum: 231de60af
+
+Time (s): cpu = 00:04:33 ; elapsed = 00:04:20 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 56462 ; free virtual = 93059
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 1d9e908bf
+
+Time (s): cpu = 00:04:20 ; elapsed = 00:04:15 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 56456 ; free virtual = 93054
+
+Phase 3.8 Slice Area Swap
+Ending Placer Task | Checksum: 136471e2b
+
+Time (s): cpu = 00:04:54 ; elapsed = 00:04:42 . Memory (MB): peak = 3685.262 ; gain = 584.320 ; free physical = 56345 ; free virtual = 92942
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+
+Phase 3.10 Place Remaining
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:28 ; elapsed = 00:05:04 . Memory (MB): peak = 3685.262 ; gain = 938.992 ; free physical = 56326 ; free virtual = 92925
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X1Y6_placed.dcp
+Phase 3.10 Place Remaining | Checksum: bdc7a7a4
+
+Time (s): cpu = 00:04:42 ; elapsed = 00:04:28 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 56281 ; free virtual = 92886
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 231de60af
+
+Time (s): cpu = 00:04:33 ; elapsed = 00:04:21 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 56276 ; free virtual = 92885
+
+Phase 3.11 Re-assign LUT pins
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Ending Placer Task | Checksum: 205e2d137
+
+Time (s): cpu = 00:04:33 ; elapsed = 00:04:21 . Memory (MB): peak = 3719.301 ; gain = 621.328 ; free physical = 56170 ; free virtual = 92812
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:04 ; elapsed = 00:04:40 . Memory (MB): peak = 3719.301 ; gain = 981.023 ; free physical = 56156 ; free virtual = 92804
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X2Y0_placed.dcp
+Phase 3.8 Slice Area Swap | Checksum: 1e148284e
+
+Time (s): cpu = 00:04:22 ; elapsed = 00:04:16 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 56102 ; free virtual = 92756
+
+Phase 4.3 Placer Reporting
+
+Phase 3.9 Commit Slice Clusters
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Phase 3.11 Re-assign LUT pins | Checksum: 1cae67333
+
+Time (s): cpu = 00:04:35 ; elapsed = 00:04:22 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 56003 ; free virtual = 92693
+
+Phase 3.12 Pipeline Register Optimization
+Phase 4.3 Placer Reporting | Checksum: 1768f7cc9
+
+Time (s): cpu = 00:05:22 ; elapsed = 00:05:06 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 56150 ; free virtual = 92857
+
+Phase 4.4 Final Placement Cleanup
+Phase 3.12 Pipeline Register Optimization | Checksum: 1cae67333
+
+Time (s): cpu = 00:04:35 ; elapsed = 00:04:22 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 56157 ; free virtual = 92864
+Phase 3 Detail Placement | Checksum: 1cae67333
+
+Time (s): cpu = 00:04:35 ; elapsed = 00:04:22 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 56259 ; free virtual = 92976
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.4 Final Placement Cleanup | Checksum: 12e3250c3
+
+Time (s): cpu = 00:05:23 ; elapsed = 00:05:06 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 56354 ; free virtual = 93085
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 12e3250c3
+
+Time (s): cpu = 00:05:23 ; elapsed = 00:05:07 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 56425 ; free virtual = 93177
+Ending Placer Task | Checksum: 8b5bab64
+
+Time (s): cpu = 00:05:23 ; elapsed = 00:05:07 . Memory (MB): peak = 3717.301 ; gain = 596.328 ; free physical = 56489 ; free virtual = 93249
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:58 ; elapsed = 00:05:30 . Memory (MB): peak = 3717.301 ; gain = 971.023 ; free physical = 56478 ; free virtual = 93239
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X0Y4_placed.dcp
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Phase 3.11 Re-assign LUT pins | Checksum: a43d0920
+
+Time (s): cpu = 00:04:45 ; elapsed = 00:04:31 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 56473 ; free virtual = 93240
+
+Phase 3.12 Pipeline Register Optimization
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Phase 3.12 Pipeline Register Optimization | Checksum: a43d0920
+
+Time (s): cpu = 00:04:45 ; elapsed = 00:04:31 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 56478 ; free virtual = 93252
+Phase 3 Detail Placement | Checksum: a43d0920
+
+Time (s): cpu = 00:04:46 ; elapsed = 00:04:32 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 56454 ; free virtual = 93241
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 132b4e1d ConstDB: 0 ShapeSum: e0a8da11 RouteDB: ad00ceb
+
+Phase 1 Build RT Design
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 3682.949 ; gain = 0.000 ; free physical = 56132 ; free virtual = 93012
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+
+Phase 4.1.1 Post Placement Optimization
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 3689.270 ; gain = 0.000 ; free physical = 56014 ; free virtual = 92921
+Post Placement Optimization Initialization | Checksum: 21c90882b
+
+Phase 4.1.1.1 BUFG Insertion
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 3723.309 ; gain = 0.000 ; free physical = 55913 ; free virtual = 92839
+
+Phase 4.3 Placer Reporting
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.3 Placer Reporting | Checksum: 1bd17f411
+
+Time (s): cpu = 00:04:42 ; elapsed = 00:04:26 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 55755 ; free virtual = 92691
+
+Phase 4.4 Final Placement Cleanup
+
+Phase 4.3 Placer Reporting
+Phase 4.1.1.1 BUFG Insertion | Checksum: 21c90882b
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:28 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 55772 ; free virtual = 92709
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.311. For the most accurate timing information please run report_timing.
+Phase 4.4 Final Placement Cleanup | Checksum: 21b4379bf
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:26 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 55722 ; free virtual = 92662
+Phase 4.1.1 Post Placement Optimization | Checksum: 24a13c33d
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:28 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 55716 ; free virtual = 92657
+Phase 4.3 Placer Reporting | Checksum: 3348fd064
+
+Time (s): cpu = 00:04:42 ; elapsed = 00:04:29 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 55713 ; free virtual = 92655
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.1 Post Commit Optimization | Checksum: 24a13c33d
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:28 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 55677 ; free virtual = 92620
+
+Phase 4.1.1 Post Placement Optimization
+Phase 4.4 Final Placement Cleanup | Checksum: 291970364
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:29 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 55718 ; free virtual = 92662
+Writing XDEF routing.
+
+Phase 4.2 Post Placement Cleanup
+Writing XDEF routing logical nets.
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 21b4379bf
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:27 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 55696 ; free virtual = 92646
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Post Placement Optimization Initialization | Checksum: 15382c900
+
+Phase 4.1.1.1 BUFG Insertion
+Phase 4.2 Post Placement Cleanup | Checksum: 24a13c33d
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:29 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 55729 ; free virtual = 92683
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 291970364
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:30 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 55723 ; free virtual = 92678
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 3721.309 ; gain = 0.000 ; free physical = 55772 ; free virtual = 92735
+Ending Placer Task | Checksum: 1c7c99009
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:30 . Memory (MB): peak = 3684.293 ; gain = 584.320 ; free physical = 55992 ; free virtual = 92956
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:17 ; elapsed = 00:04:51 . Memory (MB): peak = 3684.293 ; gain = 945.016 ; free physical = 56005 ; free virtual = 92970
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X0Y5_placed.dcp
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Ending Placer Task | Checksum: 160654f1a
+
+Time (s): cpu = 00:04:43 ; elapsed = 00:04:27 . Memory (MB): peak = 3648.230 ; gain = 547.961 ; free physical = 56014 ; free virtual = 92980
+Checksum: PlaceDB: eff4605b ConstDB: 0 ShapeSum: 34359bd3 RouteDB: d1455971
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:18 ; elapsed = 00:04:49 . Memory (MB): peak = 3648.230 ; gain = 909.656 ; free physical = 56045 ; free virtual = 93010
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X3Y2_placed.dcp
+
+Phase 1 Build RT Design
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Phase 4.1.1.1 BUFG Insertion | Checksum: 15382c900
+
+Time (s): cpu = 00:04:53 ; elapsed = 00:04:37 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 55978 ; free virtual = 92959
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.246. For the most accurate timing information please run report_timing.
+Checksum: PlaceDB: 1371b48b ConstDB: 0 ShapeSum: f90272d1 RouteDB: 896029af
+Phase 4.1.1 Post Placement Optimization | Checksum: fa24efae
+
+Time (s): cpu = 00:04:53 ; elapsed = 00:04:38 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 55857 ; free virtual = 92859
+
+Phase 1 Build RT Design
+Phase 4.1 Post Commit Optimization | Checksum: fa24efae
+
+Time (s): cpu = 00:04:53 ; elapsed = 00:04:38 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 55736 ; free virtual = 92754
+
+Phase 4.2 Post Placement Cleanup
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X2Y6/X2Y6_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 3682.949 ; gain = 4.008 ; free physical = 55607 ; free virtual = 92557
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Phase 4.2 Post Placement Cleanup | Checksum: fa24efae
+
+Time (s): cpu = 00:04:54 ; elapsed = 00:04:38 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 55551 ; free virtual = 92508
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X1Y6/X1Y6_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 3689.270 ; gain = 4.008 ; free physical = 55529 ; free virtual = 92408
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X2Y0/X2Y0_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3723.309 ; gain = 4.008 ; free physical = 55405 ; free virtual = 92209
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Phase 3.9 Commit Slice Clusters | Checksum: 119703a35
+
+Time (s): cpu = 00:04:40 ; elapsed = 00:04:27 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 55607 ; free virtual = 92424
+
+Phase 3.10 Place Remaining
+Phase 3.10 Place Remaining | Checksum: 14e28db0a
+
+Time (s): cpu = 00:04:41 ; elapsed = 00:04:28 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 55457 ; free virtual = 92285
+
+Phase 3.11 Re-assign LUT pins
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: eb8ec0aa ConstDB: 0 ShapeSum: 951bf5d7 RouteDB: c4d62902
+
+Phase 1 Build RT Design
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X0Y4/X0Y4_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3721.309 ; gain = 4.008 ; free physical = 55755 ; free virtual = 92524
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 3688.301 ; gain = 0.000 ; free physical = 55392 ; free virtual = 92181
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Phase 3.11 Re-assign LUT pins | Checksum: 135faa459
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:31 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 55183 ; free virtual = 91991
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 3652.238 ; gain = 0.000 ; free physical = 55188 ; free virtual = 91996
+
+Phase 3.12 Pipeline Register Optimization
+
+Phase 4.3 Placer Reporting
+Phase 3.12 Pipeline Register Optimization | Checksum: 135faa459
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:31 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 55281 ; free virtual = 92090
+Phase 3 Detail Placement | Checksum: 135faa459
+
+Time (s): cpu = 00:04:44 ; elapsed = 00:04:31 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 55329 ; free virtual = 92138
+
+Phase 4.3 Placer Reporting
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.3 Placer Reporting | Checksum: 33a2c7c5d
+
+Time (s): cpu = 00:05:32 ; elapsed = 00:05:18 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 55418 ; free virtual = 92227
+
+Phase 4.4 Final Placement Cleanup
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 4.3 Placer Reporting | Checksum: 2416bb646
+
+Time (s): cpu = 00:05:31 ; elapsed = 00:05:18 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 55278 ; free virtual = 92091
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 2ba30b56c
+
+Time (s): cpu = 00:05:33 ; elapsed = 00:05:18 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 55180 ; free virtual = 91994
+Phase 4.4 Final Placement Cleanup | Checksum: 1e0d416d0
+
+Time (s): cpu = 00:05:31 ; elapsed = 00:05:18 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 55067 ; free virtual = 91882
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2ba30b56c
+
+Time (s): cpu = 00:05:33 ; elapsed = 00:05:19 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 55043 ; free virtual = 91860
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X0Y5/X0Y5_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3688.301 ; gain = 4.008 ; free physical = 55169 ; free virtual = 91898
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1e0d416d0
+
+Time (s): cpu = 00:05:32 ; elapsed = 00:05:19 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 55129 ; free virtual = 91860
+Ending Placer Task | Checksum: 23c77990c
+
+Time (s): cpu = 00:05:33 ; elapsed = 00:05:19 . Memory (MB): peak = 3601.402 ; gain = 499.430 ; free physical = 55134 ; free virtual = 91864
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:06:08 ; elapsed = 00:05:42 . Memory (MB): peak = 3601.402 ; gain = 863.125 ; free physical = 55224 ; free virtual = 91956
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X3Y0_placed.dcp
+Ending Placer Task | Checksum: 14ed41c5c
+
+Time (s): cpu = 00:05:32 ; elapsed = 00:05:19 . Memory (MB): peak = 3677.938 ; gain = 578.969 ; free physical = 55337 ; free virtual = 92069
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:06:05 ; elapsed = 00:05:41 . Memory (MB): peak = 3677.938 ; gain = 937.664 ; free physical = 55396 ; free virtual = 92129
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X1Y3_placed.dcp
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X3Y2/X3Y2_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 3652.238 ; gain = 4.008 ; free physical = 55338 ; free virtual = 92025
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Post Placement Optimization Initialization | Checksum: 1a5b865bc
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1a5b865bc
+
+Time (s): cpu = 00:04:50 ; elapsed = 00:04:36 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 55143 ; free virtual = 91883
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.986. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 17d0ef9c8
+
+Time (s): cpu = 00:04:51 ; elapsed = 00:04:36 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 55063 ; free virtual = 91806
+Phase 4.1 Post Commit Optimization | Checksum: 17d0ef9c8
+
+Time (s): cpu = 00:04:51 ; elapsed = 00:04:36 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 55021 ; free virtual = 91768
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 17d0ef9c8
+
+Time (s): cpu = 00:04:52 ; elapsed = 00:04:37 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 54941 ; free virtual = 91694
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Writing XDEF routing.
+Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 3681.945 ; gain = 0.000 ; free physical = 55029 ; free virtual = 91840
+Writing XDEF routing logical nets.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+Writing XDEF routing special nets.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 3605.410 ; gain = 0.000 ; free physical = 55031 ; free virtual = 91854
+Checksum: PlaceDB: e461bede ConstDB: 0 ShapeSum: 11abf2a7 RouteDB: af41eb50
+
+Phase 1 Build RT Design
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 4.3 Placer Reporting
+Checksum: PlaceDB: 9cc0205b ConstDB: 0 ShapeSum: 1da15a4e RouteDB: f2602e3
+Phase 4.3 Placer Reporting | Checksum: 258aff970
+
+Time (s): cpu = 00:05:19 ; elapsed = 00:05:03 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 54097 ; free virtual = 90930
+
+Phase 4.4 Final Placement Cleanup
+
+Phase 1 Build RT Design
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Phase 4.4 Final Placement Cleanup | Checksum: 21c5fa452
+
+Time (s): cpu = 00:05:20 ; elapsed = 00:05:04 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 53605 ; free virtual = 90444
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X3Y0/X3Y0_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 3605.410 ; gain = 4.008 ; free physical = 53749 ; free virtual = 90499
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X1Y3/X1Y3_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3681.945 ; gain = 4.008 ; free physical = 53955 ; free virtual = 90616
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 21c5fa452
+
+Time (s): cpu = 00:05:20 ; elapsed = 00:05:04 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 54018 ; free virtual = 90679
+Ending Placer Task | Checksum: 1b8b4bae2
+
+Time (s): cpu = 00:05:20 ; elapsed = 00:05:05 . Memory (MB): peak = 3679.238 ; gain = 578.969 ; free physical = 54016 ; free virtual = 90676
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:57 ; elapsed = 00:05:29 . Memory (MB): peak = 3679.238 ; gain = 877.969 ; free physical = 54060 ; free virtual = 90720
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X3Y1_placed.dcp
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 49d47617 ConstDB: 0 ShapeSum: 936d3db6 RouteDB: b7afd63b
+
+Phase 1 Build RT Design
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 3683.246 ; gain = 0.000 ; free physical = 53680 ; free virtual = 90430
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X3Y1/X3Y1_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 3683.246 ; gain = 4.008 ; free physical = 53913 ; free virtual = 90581
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 32808a662
+
+Time (s): cpu = 00:05:18 ; elapsed = 00:05:04 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 53543 ; free virtual = 90211
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 2bd1d8848
+
+Time (s): cpu = 00:05:19 ; elapsed = 00:05:05 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 53480 ; free virtual = 90148
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2bd1d8848
+
+Time (s): cpu = 00:05:19 ; elapsed = 00:05:05 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 53427 ; free virtual = 90095
+Ending Placer Task | Checksum: 24c98a0a6
+
+Time (s): cpu = 00:05:19 ; elapsed = 00:05:05 . Memory (MB): peak = 3681.633 ; gain = 560.969 ; free physical = 53418 ; free virtual = 90086
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:53 ; elapsed = 00:05:28 . Memory (MB): peak = 3681.633 ; gain = 942.359 ; free physical = 53434 ; free virtual = 90102
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X3Y5_placed.dcp
+
+Phase 4.3 Placer Reporting
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Checksum: PlaceDB: 7085d30c ConstDB: 0 ShapeSum: 5a799a2a RouteDB: 6b47b0f5
+
+
+Starting Routing Task
+INFO: [Timing 38-480] Writing timing data to binary archive.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Writing placer database...
+
+Phase 1 Build RT Design
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Phase 4.3 Placer Reporting | Checksum: 1f6805fd4
+
+Time (s): cpu = 00:05:29 ; elapsed = 00:05:14 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 53139 ; free virtual = 89826
+
+Phase 4.4 Final Placement Cleanup
+Checksum: PlaceDB: 399e66f7 ConstDB: 0 ShapeSum: 3a31ed48 RouteDB: 178b5725
+
+Phase 1 Build RT Design
+Phase 4.4 Final Placement Cleanup | Checksum: 262923f04
+
+Time (s): cpu = 00:05:30 ; elapsed = 00:05:15 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 53213 ; free virtual = 89919
+Checksum: PlaceDB: 40b50444 ConstDB: 0 ShapeSum: 9bf6382b RouteDB: 94c832ef
+
+Phase 1 Build RT Design
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 262923f04
+
+Time (s): cpu = 00:05:30 ; elapsed = 00:05:15 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 53044 ; free virtual = 89759
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: cbe534d2 ConstDB: 0 ShapeSum: 6505dd43 RouteDB: d4f7bf22
+Ending Placer Task | Checksum: 1ef14db39
+
+Time (s): cpu = 00:05:30 ; elapsed = 00:05:15 . Memory (MB): peak = 3687.293 ; gain = 582.320 ; free physical = 52957 ; free virtual = 89676
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:06:03 ; elapsed = 00:05:36 . Memory (MB): peak = 3687.293 ; gain = 949.016 ; free physical = 53022 ; free virtual = 89742
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X2Y2_placed.dcp
+
+Phase 1 Build RT Design
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 9f29bcf6 ConstDB: 0 ShapeSum: 47477206 RouteDB: e158610d
+
+Phase 1 Build RT Design
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 3685.641 ; gain = 0.000 ; free physical = 52542 ; free virtual = 89365
+Checksum: PlaceDB: 8ee2a1b4 ConstDB: 0 ShapeSum: 843afad6 RouteDB: 4d47b290
+
+Phase 1 Build RT Design
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 3691.301 ; gain = 0.000 ; free physical = 52588 ; free virtual = 89435
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+
+Phase 4.3 Placer Reporting
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X3Y5/X3Y5_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 3685.641 ; gain = 4.008 ; free physical = 52280 ; free virtual = 89046
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Phase 4.3 Placer Reporting | Checksum: 1a19e37b7
+
+Time (s): cpu = 00:05:25 ; elapsed = 00:05:11 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 52258 ; free virtual = 89024
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 13f914f48
+
+Time (s): cpu = 00:05:26 ; elapsed = 00:05:12 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 52208 ; free virtual = 88974
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 13f914f48
+
+Time (s): cpu = 00:05:27 ; elapsed = 00:05:12 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 52141 ; free virtual = 88907
+Ending Placer Task | Checksum: d15cc123
+
+Time (s): cpu = 00:05:27 ; elapsed = 00:05:13 . Memory (MB): peak = 3604.398 ; gain = 501.430 ; free physical = 52036 ; free virtual = 88804
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:05:59 ; elapsed = 00:05:33 . Memory (MB): peak = 3604.398 ; gain = 866.125 ; free physical = 52031 ; free virtual = 88800
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  X3Y4_placed.dcp
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X2Y2/X2Y2_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 3691.301 ; gain = 4.008 ; free physical = 52004 ; free virtual = 88730
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: fbc9ea47 ConstDB: 0 ShapeSum: 6505dd43 RouteDB: dba7d182
+
+Phase 1 Build RT Design
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 189df5f3 ConstDB: 0 ShapeSum: 64b75724 RouteDB: d17ecf45
+
+Phase 1 Build RT Design
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 3608.406 ; gain = 0.000 ; free physical = 51461 ; free virtual = 88234
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Common 17-1381] The checkpoint '/tmp/direct_wires/workspace/F004_pr_dg_reg/page_X3Y4/X3Y4_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 3608.406 ; gain = 4.008 ; free physical = 51283 ; free virtual = 87975
+# set start_time [clock seconds]
+# route_design  
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads

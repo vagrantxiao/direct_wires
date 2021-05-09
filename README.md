@@ -3,8 +3,9 @@ Direct Wires (DW PRFlow) is a framework that allows FPGA developers to map their
 applications by using existed PRflow framework, but without NoC bandwidth limitations.
 
 ### How DW prflow works?
-We quantize the MPSoC Fabrics into coarse-grained blocks as [figure 1](images/overlay_new.jpg).
-  
+We quantize the MPSoC Fabrics into coarse-grained blocks as the figure below.
+
+![](images/overlay_new.jpg) 
 
 
 
