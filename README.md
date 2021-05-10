@@ -92,6 +92,19 @@ After the compliation have been done, you can open the project under
 `./workspace/F001_static_32_leaves/prj/flooplan_static.xpr`.
 
 
+## 5. Try other Benchmarks
+You can also try the other 5 benchmarks by typing commands below.
+
+```c
+make bnn
+make dg_reg
+make optical_flow
+make face_detection
+make spam_filter
+```
+
+
+
 ## Cite this work
 If you use it in your paper, please cite our work ([full version](https://ieeexplore-ieee-org.proxy.library.upenn.edu/document/9415587)).
 ```
