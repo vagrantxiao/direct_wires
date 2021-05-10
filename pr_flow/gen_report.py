@@ -218,7 +218,6 @@ if __name__ == "__main__":
       #####################################################################################
       #process impl timing
       file_name = './workspace/F004_pr_'+benchmark_name+'/page_' + page_num + '/runLogImpl_' + page_num + '.log'
-      print file_name
       try: 
         file_in = open(file_name, 'r')
         run_time_list = []
