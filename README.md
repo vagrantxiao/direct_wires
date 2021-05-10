@@ -55,13 +55,19 @@ Based on the interconnection description, the pyhsical location and interconnect
 
 ## 1. Getting Started
 ```
-$ git clone https://github.com/RC4ML/Shuhai.git
-$ git submodule update --init --recursive
+$ git clone https://github.com/vagrantxiao/direct_wires.git
 ```
 
-## 2. Build FPGA Project
-```
-$ cd hw/
+## 2. Modify the Configuration files
+We should tell the tool where the Vivado installed.
+[configure.xml](common/configure/configure.xml) file stores the basic 
+information for the tool. We should modify the **Xilinx_dir** feature as below.
+We should modify the **jobNum** according to how many cores you have 
+on your local machine. 
+
+```c
+  <spec name = "Xilinx_dir"         value = "/opt/Xilinx/SDx/2018.2/settings64.sh" />
+  <spec name = "jobNum"             value = "8" />
 ```
 According to hw/README.md, build vivado project and program the FPGA with the generated bitstream. 
 
