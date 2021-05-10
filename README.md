@@ -47,8 +47,9 @@ as well.
   <link source = "coloringFB_top_m.0-X3Y5-X3Y4-X3Y3-X2Y3-X1Y3-DMA.0" width = "128"/>
 ```
 
+Based on the interconnection description, the pyhsical location and interconnections are as below.
 
-
+![](images/overlay_rendering.jpg) 
 
 
 
