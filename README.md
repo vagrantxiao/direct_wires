@@ -61,27 +61,35 @@ $ git clone https://github.com/vagrantxiao/direct_wires.git
 ## 2. Modify the Configuration files
 We should tell the tool where the Vivado installed.
 [configure.xml](common/configure/configure.xml) file stores the basic 
-information for the tool. We should modify the **Xilinx_dir** feature as below.
-We should modify the **jobNum** according to how many cores you have 
+information for the tool. We should modify the `Xilinx_dir` feature as below.
+We should modify the `jobNum` according to how many cores you have 
 on your local machine. 
 
 ```c
   <spec name = "Xilinx_dir"         value = "/opt/Xilinx/SDx/2018.2/settings64.sh" />
   <spec name = "jobNum"             value = "8" />
 ```
-According to hw/README.md, build vivado project and program the FPGA with the generated bitstream. 
 
-## 3. Build Software Project
+## 3. Build Project to Bitstreams
+Our framework will set up all the necessary scripts for parallel compilations.
+Type the commands below until all the partial bitstreams are generated.
+
+```c
+make
+make rendering
 ```
-$ cd sw/
+## 4. Custom your own platform
+In the previous section, we re-use the pre-built [overlay](common/overlay/big_static_routed_32.dcp).
+You can also generate the overlay from a vivado project and customize 
+your own overlay.
+Type the commands below to generate the overlay project
+
+```c
+make overlay
 ```
-According to sw/README.md, build the software project and run the application
 
-
-## Frequently Asked Questions
-1, Q. the machine failed to detect PCIe on the FPGA when loading the kernel module.
-
-   A. Connect the JTAG to another machine that will not crash when downloading the FPGA image. It means that you cannot use the same machine to load the bitstream. 
+After the compliation have been done, you can open the project under
+`./workspace/F001_static_32_leaves/prj/flooplan_static.xpr`.
 
 
 ## Cite this work
